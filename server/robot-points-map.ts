@@ -1,0 +1,372 @@
+/**
+ * Standardized map of robot points based on our naming convention
+ * 
+ * This file is used by the workflow system to locate and interact with points
+ * across the different maps in the robot.
+ * 
+ * It includes mapping between technical point IDs (001_load, 050_load) and 
+ * user-friendly display names ("Pickup", "Dropoff") shown in the UI.
+ */
+
+// Point coordinates type
+export interface Point {
+  x: number;
+  y: number;
+  theta: number;
+}
+
+// Floor data type
+export interface Floor {
+  mapId: number;
+  mapName: string;
+  points: Record<string, Point>;
+  charger: Point;
+}
+
+// Display name mapping for user interface
+export interface PointDisplayMapping {
+  technicalId: string;    // Internal ID used by system (e.g., "001_load")
+  displayName: string;    // User-friendly name shown in UI (e.g., "Dropoff")
+  pointType: 'pickup' | 'dropoff' | 'shelf' | 'charger'; // Type of point
+}
+
+// Robot points map type
+export interface RobotPointsMap {
+  floors: Record<number, Floor>;
+  getPoint: (floorId: number, pointName: string) => Point;
+  getCharger: (floorId: number) => Point;
+  getMapId: (floorId: number) => number;
+  getFloorIds: () => number[];
+  getShelfPointNames: (floorId: number) => string[];
+  getShelfNumber: (shelfPointName: string) => number;
+  getDockingPointName: (loadPointName: string) => string;
+  // New mapping functions for display names
+  getDisplayName: (technicalId: string) => string;
+  getTechnicalIdFromDisplay: (displayName: string) => string;
+}
+
+// Display name mappings for the UI
+export const pointDisplayMappings: PointDisplayMapping[] = [
+  { technicalId: '050_load', displayName: 'Pickup', pointType: 'pickup' },
+  { technicalId: '050_load_docking', displayName: 'Pickup Docking', pointType: 'pickup' },
+  { technicalId: '001_load', displayName: 'Dropoff', pointType: 'dropoff' },
+  { technicalId: '001_load_docking', displayName: 'Dropoff Docking', pointType: 'dropoff' },
+  { technicalId: '104_load', displayName: 'Zone 104', pointType: 'shelf' },
+  { technicalId: '104_load_docking', displayName: 'Zone 104 Docking', pointType: 'shelf' },
+  { technicalId: 'charger', displayName: 'Charging Station', pointType: 'charger' },
+];
+
+// Contains data retrieved from analyze-robot-map.js
+const robotPointsMap: RobotPointsMap = {
+  floors: {
+    // Floor1 is our main operational floor
+    1: {
+      mapId: 4,
+      mapName: 'Floor1',
+      points: {
+        // Central pickup and dropoff points (updated nomenclature)
+        '050_load': {
+          x: -2.847, 
+          y: 2.311, 
+          theta: 0.0
+        },
+        '050_load_docking': {
+          x: -1.887,
+          y: 2.311,
+          theta: 0.0
+        },
+        '001_load': {
+          x: -2.861,
+          y: 3.383,
+          theta: 0.0
+        },
+        '001_unload': {
+          x: -2.861,  // Same position as 001_load
+          y: 3.383,
+          theta: 0.0
+        },
+        '001_load_docking': {
+          x: -1.850,
+          y: 3.366,
+          theta: 0.0
+        },
+        
+        // Legacy points kept for backward compatibility
+        'pick-up_load': {
+          x: -2.847, 
+          y: 2.311, 
+          theta: 0.0
+        },
+        'pick-up_load_docking': {
+          x: -1.887,
+          y: 2.311,
+          theta: 0.0
+        },
+        'drop-off_load': {
+          x: -2.861,
+          y: 3.383,
+          theta: 0.0
+        },
+        'drop-off_load_docking': {
+          x: -1.850,
+          y: 3.366,
+          theta: 0.0
+        },
+        
+        // Shelf points on floor 1
+        '104_load': {
+          x: -15.880,
+          y: 6.768,
+          theta: 0.0
+        },
+        '104_load_docking': {
+          x: -14.801,
+          y: 6.768,
+          theta: 0.0
+        },
+        '112_load': {
+          x: 1.406,
+          y: 4.496,
+          theta: 180.0
+        },
+        '112_load_docking': {
+          x: 0.378,
+          y: 4.529,
+          theta: 0.0
+        },
+        '115_load': {
+          x: -8.029,
+          y: 6.704,
+          theta: 0.0
+        },
+        '115_load_docking': {
+          x: -6.917,
+          y: 6.721,
+          theta: 0.0
+        }
+      },
+      // Charger location on this floor
+      charger: {
+        x: 0.034,
+        y: 0.498,
+        theta: 266.11
+      }
+    }
+  },
+  
+  // Get point coordinates by floor ID and point name
+  getPoint: function(floorId: number, pointName: string): Point {
+    if (!this.floors[floorId]) {
+      throw new Error(`Floor ${floorId} not found`);
+    }
+    
+    if (!this.floors[floorId].points[pointName]) {
+      throw new Error(`Point ${pointName} not found on floor ${floorId}`);
+    }
+    
+    return this.floors[floorId].points[pointName];
+  },
+  
+  // Get charger coordinates for a specific floor
+  getCharger: function(floorId: number): Point {
+    if (!this.floors[floorId]) {
+      throw new Error(`Floor ${floorId} not found`);
+    }
+    
+    if (!this.floors[floorId].charger) {
+      throw new Error(`No charger found on floor ${floorId}`);
+    }
+    
+    return this.floors[floorId].charger;
+  },
+  
+  // Get map ID for a specific floor
+  getMapId: function(floorId: number): number {
+    if (!this.floors[floorId]) {
+      throw new Error(`Floor ${floorId} not found`);
+    }
+    
+    return this.floors[floorId].mapId;
+  },
+  
+  // Get all available floor IDs
+  getFloorIds: function(): number[] {
+    return Object.keys(this.floors).map(id => parseInt(id, 10));
+  },
+  
+  // Get all shelf point names for a specific floor
+  getShelfPointNames: function(floorId: number): string[] {
+    if (!this.floors[floorId]) {
+      throw new Error(`Floor ${floorId} not found`);
+    }
+    
+    return Object.keys(this.floors[floorId].points)
+      .filter(pointName => /^\d+_load$/.test(pointName));
+  },
+  
+  // Extract the shelf number from a shelf point name (e.g., "104_load" -> 104)
+  getShelfNumber: function(shelfPointName: string): number {
+    if (!shelfPointName.endsWith('_load')) {
+      throw new Error(`${shelfPointName} is not a valid shelf point name`);
+    }
+    
+    return parseInt(shelfPointName.replace('_load', ''), 10);
+  },
+  
+  // Get the docking point name for a load point
+  getDockingPointName: function(loadPointName: string): string {
+    if (!loadPointName.endsWith('_load')) {
+      throw new Error(`${loadPointName} is not a valid load point name`);
+    }
+    
+    return `${loadPointName}_docking`;
+  },
+  
+  // Get display name for technical point ID
+  getDisplayName: function(technicalId: string): string {
+    const mapping = pointDisplayMappings.find(m => m.technicalId === technicalId);
+    if (mapping) {
+      return mapping.displayName;
+    }
+    // If no mapping found, return the original ID (fallback)
+    return technicalId;
+  },
+  
+  // Get technical ID from display name
+  getTechnicalIdFromDisplay: function(displayName: string): string {
+    const mapping = pointDisplayMappings.find(m => m.displayName === displayName);
+    if (mapping) {
+      return mapping.technicalId;
+    }
+    // If no mapping found, return the original name (fallback)
+    return displayName;
+  }
+};
+
+// Utility functions for easier access to common point operations
+
+/**
+ * Get a shelf point by ID (e.g., "104" or "pick-up" or "drop-off")
+ * @param shelfId The shelf ID (e.g., "104", "pick-up", "drop-off")
+ * @returns The point object if found, null otherwise
+ */
+export function getShelfPoint(shelfId: string): Point | null {
+  // The default floor is 1 unless specified otherwise
+  const floorId = 1;
+  
+  if (!robotPointsMap.floors[floorId]) {
+    console.error(`Floor ${floorId} not found in robot points map`);
+    return null;
+  }
+  
+  // Use EXACT format from robot API - all lowercase with correct format
+  // For shelf points: "104_load", "115_load", etc.
+  // For pickup/dropoff: "pick-up_load", "drop-off_load"
+  let pointName: string;
+  
+  // First check if the shelfId is already a fully formatted ID (ends with _load)
+  if (shelfId.toLowerCase().endsWith('_load')) {
+    // Already formatted, just ensure lowercase
+    pointName = shelfId.toLowerCase();
+    console.log(`Using already formatted shelf ID: ${pointName}`);
+  }
+  // Special handling for pickup and dropoff points with new and old nomenclature
+  else if (shelfId === 'pick-up') {
+    pointName = '050_load'; // New nomenclature
+  }
+  else if (shelfId === 'drop-off') {
+    pointName = '001_load'; // New nomenclature
+  }
+  else if (shelfId === '050' || shelfId === 'pickup') {
+    pointName = '050_load'; // New pickup point
+  }
+  else if (shelfId === '001' || shelfId === 'dropoff') {
+    pointName = '001_load'; // New dropoff point
+  } 
+  else {
+    // For numeric shelf IDs like 104, 115, etc.
+    pointName = `${shelfId.toLowerCase()}_load`;
+  }
+  
+  console.log(`Looking for shelf point with ID: ${pointName}`);
+  
+  if (robotPointsMap.floors[floorId].points[pointName]) {
+    console.log(`Found shelf point: ${pointName}`);
+    const point = robotPointsMap.floors[floorId].points[pointName];
+    return {
+      x: point.x,
+      y: point.y,
+      theta: point.theta
+    };
+  }
+  
+  console.error(`Shelf point not found: ${pointName} on floor ${floorId}`);
+  return null;
+}
+
+/**
+ * Get a shelf docking point by ID (e.g., "104" or "pick-up" or "drop-off")
+ * @param shelfId The shelf ID (e.g., "104", "pick-up", "drop-off")
+ * @returns The point object if found, null otherwise
+ */
+export function getShelfDockingPoint(shelfId: string): Point | null {
+  // The default floor is 1 unless specified otherwise
+  const floorId = 1;
+  
+  if (!robotPointsMap.floors[floorId]) {
+    console.error(`Floor ${floorId} not found in robot points map`);
+    return null;
+  }
+  
+  // Use EXACT format from robot API - all lowercase with correct format
+  // For shelf points: "104_load_docking", "115_load_docking", etc.
+  // For pickup/dropoff: "pick-up_load_docking", "drop-off_load_docking"
+  let pointName: string;
+  
+  // First check if the shelfId is already a fully formatted docking ID (ends with _load_docking)
+  if (shelfId.toLowerCase().endsWith('_load_docking')) {
+    // Already formatted, just ensure lowercase
+    pointName = shelfId.toLowerCase();
+    console.log(`Using already formatted docking ID: ${pointName}`);
+  }
+  // Check if it's a fully formatted load point (ends with _load)
+  else if (shelfId.toLowerCase().endsWith('_load')) {
+    // Convert load point to docking point
+    pointName = `${shelfId.toLowerCase()}_docking`;
+    console.log(`Converting load point to docking point: ${pointName}`);
+  }
+  // Special handling for pickup and dropoff points with new and old nomenclature
+  else if (shelfId === 'pick-up') {
+    pointName = '050_load_docking'; // New nomenclature
+  }
+  else if (shelfId === 'drop-off') {
+    pointName = '001_load_docking'; // New nomenclature
+  }
+  else if (shelfId === '050' || shelfId === 'pickup') {
+    pointName = '050_load_docking'; // New pickup point
+  }
+  else if (shelfId === '001' || shelfId === 'dropoff') {
+    pointName = '001_load_docking'; // New dropoff point
+  } 
+  else {
+    // For numeric shelf IDs like 104, 115, etc.
+    pointName = `${shelfId.toLowerCase()}_load_docking`;
+  }
+  
+  console.log(`Looking for shelf docking point with ID: ${pointName}`);
+  
+  if (robotPointsMap.floors[floorId].points[pointName]) {
+    console.log(`Found shelf docking point: ${pointName}`);
+    const point = robotPointsMap.floors[floorId].points[pointName];
+    return {
+      x: point.x,
+      y: point.y,
+      theta: point.theta
+    };
+  }
+  
+  console.error(`Shelf docking point not found: ${pointName} on floor ${floorId}`);
+  return null;
+}
+
+export default robotPointsMap;

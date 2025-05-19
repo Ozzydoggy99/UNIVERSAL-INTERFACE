@@ -1,0 +1,92 @@
+🧩 REPLIT PATCH PROMPT — Final mission-runner.ts (no timers, real API)
+bash
+Copy
+Edit
+cat <<'EOF' > server/backend/mission-runner.ts
+// FINAL PATCH: Clean mission-runner.ts using real robot task polling (no timers)
+
+import axios from "axios";
+import { ROBOT_API_URL, ROBOT_SECRET } from "../robot-constants";
+import { Point } from "../types";
+import { appendLog } from "../debug-log";
+
+const headers = { "x-api-key": ROBOT_SECRET };
+
+interface RobotTaskRequest {
+  shelfId: string;
+  uiMode: "pickup" | "dropoff";
+  points: Point[];
+}
+
+const wait = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
+
+async function waitForMoveComplete(): Promise<void> {
+  let retries = 0;
+  while (retries < 60) { // 60 * 2s = 2 minutes max
+    try {
+      const res = await axios.get(`${ROBOT_API_URL}/chassis/moves/latest`, { headers });
+      const { state } = res.data;
+      appendLog(`🔄 Robot move status: ${state}`);
+      if (state === "succeeded") return;
+      if (state === "failed") throw new Error("❌ Robot move failed");
+    } catch (err: any) {
+      appendLog(`⚠️ Status check error: ${err.message}`);
+    }
+    await wait(2000); // poll every 2 seconds
+    retries++;
+  }
+  throw new Error("⏱ Robot did not report arrival within timeout");
+}
+
+export async function runMission({ shelfId, uiMode, points }: RobotTaskRequest) {
+  const normalize = (val: string) => String(val).trim().toLowerCase();
+  const find = (id: string) => points.find(p => normalize(p.id) === normalize(id));
+
+  const pickup = find("pick-up");
+  const dropoff = find("drop-off");
+  const standby = find("desk") || find("standby");
+  const shelf = find(shelfId);
+
+  if (!pickup || !dropoff || !standby || !shelf) {
+    throw new Error("❌ Required point(s) not found: pickup, dropoff, desk/standby, shelf");
+  }
+
+  const sequence = uiMode === "pickup"
+    ? [shelf, dropoff, standby]
+    : [standby, pickup, shelf, standby];
+
+  appendLog("\n[MISSION START]");
+  appendLog(`Mode: ${uiMode}`);
+  appendLog(`Shelf: ${shelf.id} → (${shelf.x}, ${shelf.y})`);
+  appendLog(`Pickup: ${pickup.id} → (${pickup.x}, ${pickup.y})`);
+  appendLog(`Drop-off: ${dropoff.id} → (${dropoff.x}, ${dropoff.y})`);
+  appendLog(`Standby: ${standby.id} → (${standby.x}, ${standby.y})`);
+
+  for (const point of sequence) {
+    try {
+      appendLog(`➡️ Sending robot to: ${point.id} (${point.x}, ${point.y})`);
+      const response = await axios.post(`${ROBOT_API_URL}/chassis/moves`, {
+        action: "move_to",
+        target_x: point.x,
+        target_y: point.y
+      }, { headers });
+
+      appendLog(`✅ Move to ${point.id} started (MoveID: ${response.data?.id})`);
+      await waitForMoveComplete();
+      appendLog(`🏁 Arrived at ${point.id}`);
+    } catch (err: any) {
+      appendLog(`❌ Move to ${point.id} failed: ${err.message}`);
+      throw new Error(`Move failed: ${point.id}`);
+    }
+  }
+
+  appendLog("[MISSION COMPLETE]\n");
+}
+EOF
+✅ Paste this into your Replit terminal, hit enter, and you're live with:
+
+Real polling
+
+No guesswork
+
+Full logging and proper sequencing

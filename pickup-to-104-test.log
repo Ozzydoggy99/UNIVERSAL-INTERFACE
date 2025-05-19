@@ -1,0 +1,137 @@
+2025-05-09T23:15:20.514Z - 🚀 Starting test: Pickup from main pickup point to 104 workflow...
+2025-05-09T23:15:21.377Z - ✅ Workflow started with mission ID: mission_1746832521346_m1jbcwc
+2025-05-09T23:15:21.377Z - Total workflow steps: 7
+2025-05-09T23:15:21.378Z - This workflow will:
+2025-05-09T23:15:21.378Z - 1. Go to pickup docking point (Drop-off_Load_docking)
+2025-05-09T23:15:21.378Z - 2. Align with rack at pickup point (Drop-off_Load)
+2025-05-09T23:15:21.379Z - 3. Jack up to grab bin
+2025-05-09T23:15:21.379Z - 4. Go to 104 docking point (104_Load_docking)
+2025-05-09T23:15:21.380Z - 5. Move to 104 point (104_Load) for precise dropoff
+2025-05-09T23:15:21.380Z - 6. Jack down to release bin
+2025-05-09T23:15:21.380Z - 7. Move away from 104 for safety
+2025-05-09T23:15:21.381Z - 8. (Optional) Return to charger if available
+2025-05-09T23:15:21.382Z - ❗ IMPORTANT: The mission is now in progress on the robot.
+2025-05-09T23:15:21.383Z - ❗ Test complete. The robot will continue executing the workflow.
+2025-05-09T23:15:21.383Z - ❗ If you need to stop the robot for any reason, use the emergency stop button or cancel the mission via the API.
+2025-05-09T23:19:36.283Z - 🚀 Starting test: Pickup from main pickup point to 104 workflow...
+2025-05-09T23:19:37.268Z - ✅ Workflow started with mission ID: mission_1746832777235_9do6ep3
+2025-05-09T23:19:37.268Z - Total workflow steps: 7
+2025-05-09T23:19:37.269Z - This workflow will:
+2025-05-09T23:19:37.269Z - 1. Go to pickup docking point (Pick-up_Load_docking)
+2025-05-09T23:19:37.270Z - 2. Align with rack at pickup point (Pick-up_Load)
+2025-05-09T23:19:37.270Z - 3. Jack up to grab bin
+2025-05-09T23:19:37.271Z - 4. Go to 104 docking point (104_Load_docking)
+2025-05-09T23:19:37.271Z - 5. Move to 104 point (104_Load) for precise dropoff
+2025-05-09T23:19:37.272Z - 6. Jack down to release bin
+2025-05-09T23:19:37.272Z - 7. Move away from 104 for safety
+2025-05-09T23:19:37.272Z - 8. (Optional) Return to charger if available
+2025-05-09T23:19:37.273Z - ❗ IMPORTANT: The mission is now in progress on the robot.
+2025-05-09T23:19:37.274Z - ❗ Test complete. The robot will continue executing the workflow.
+2025-05-09T23:19:37.274Z - ❗ If you need to stop the robot for any reason, use the emergency stop button or cancel the mission via the API.
+2025-05-09T23:56:47.711Z - 🚀 Starting test: Pickup from main pickup point to 104 workflow...
+2025-05-09T23:56:48.683Z - ✅ Workflow started with mission ID: mission_1746835008658_nz7oi1d
+2025-05-09T23:56:48.683Z - Total workflow steps: 8
+2025-05-09T23:56:48.684Z - This workflow will:
+2025-05-09T23:56:48.685Z - 1. Go to pickup docking point (Pick-up_Load_docking)
+2025-05-09T23:56:48.685Z - 2. Align with rack at pickup point (Pick-up_Load)
+2025-05-09T23:56:48.685Z - 3. Jack up to grab bin
+2025-05-09T23:56:48.686Z - 4. Go to 104 docking point (104_Load_docking)
+2025-05-09T23:56:48.686Z - 5. Move to 104 point (104_Load) for precise dropoff
+2025-05-09T23:56:48.687Z - 6. Jack down to release bin
+2025-05-09T23:56:48.687Z - 7. Move away from 104 for safety
+2025-05-09T23:56:48.688Z - 8. (Optional) Return to charger if available
+2025-05-09T23:56:48.688Z - ❗ IMPORTANT: The mission is now in progress on the robot.
+2025-05-09T23:56:48.689Z - ❗ Test complete. The robot will continue executing the workflow.
+2025-05-09T23:56:48.689Z - ❗ If you need to stop the robot for any reason, use the emergency stop button or cancel the mission via the API.
+2025-05-10T00:04:10.214Z - 🚀 Starting test: Pickup from main pickup point to 104 workflow...
+2025-05-10T00:04:11.488Z - ✅ Workflow started with mission ID: mission_1746835451457_yians32
+2025-05-10T00:04:11.489Z - Total workflow steps: 8
+2025-05-10T00:04:11.489Z - This workflow will:
+2025-05-10T00:04:11.489Z - 1. Go to pickup docking point (Pick-up_Load_docking)
+2025-05-10T00:04:11.489Z - 2. Align with rack at pickup point (Pick-up_Load)
+2025-05-10T00:04:11.490Z - 3. Jack up to grab bin
+2025-05-10T00:04:11.490Z - 4. Go to 104 docking point (104_Load_docking)
+2025-05-10T00:04:11.490Z - 5. Move to 104 point (104_Load) for precise dropoff
+2025-05-10T00:04:11.490Z - 6. Jack down to release bin
+2025-05-10T00:04:11.491Z - 7. Move away from 104 for safety
+2025-05-10T00:04:11.492Z - 8. (Optional) Return to charger if available
+2025-05-10T00:04:11.492Z - ❗ IMPORTANT: The mission is now in progress on the robot.
+2025-05-10T00:04:11.493Z - ❗ Test complete. The robot will continue executing the workflow.
+2025-05-10T00:04:11.493Z - ❗ If you need to stop the robot for any reason, use the emergency stop button or cancel the mission via the API.
+2025-05-10T00:06:39.091Z - 🚀 Starting test: Pickup from main pickup point to 104 workflow...
+2025-05-10T00:06:40.222Z - ✅ Workflow started with mission ID: mission_1746835600180_xgpcrm7
+2025-05-10T00:06:40.222Z - Total workflow steps: 7
+2025-05-10T00:06:40.222Z - This workflow will:
+2025-05-10T00:06:40.222Z - 1. Go to pickup docking point (Pick-up_Load_docking)
+2025-05-10T00:06:40.223Z - 2. Align with rack at pickup point (Pick-up_Load)
+2025-05-10T00:06:40.223Z - 3. Jack up to grab bin
+2025-05-10T00:06:40.223Z - 4. Go to 104 docking point (104_Load_docking)
+2025-05-10T00:06:40.224Z - 5. Move to 104 point (104_Load) for precise dropoff
+2025-05-10T00:06:40.224Z - 6. Jack down to release bin
+2025-05-10T00:06:40.224Z - 7. Move away from 104 for safety
+2025-05-10T00:06:40.224Z - 8. (Optional) Return to charger if available
+2025-05-10T00:06:40.225Z - ❗ IMPORTANT: The mission is now in progress on the robot.
+2025-05-10T00:06:40.225Z - ❗ Test complete. The robot will continue executing the workflow.
+2025-05-10T00:06:40.225Z - ❗ If you need to stop the robot for any reason, use the emergency stop button or cancel the mission via the API.
+2025-05-10T00:14:29.063Z - 🚀 Starting test: Pickup from main pickup point to 104 workflow...
+2025-05-10T00:14:29.991Z - ✅ Workflow started with mission ID: mission_1746836069960_zvzjczk
+2025-05-10T00:14:29.992Z - Total workflow steps: 8
+2025-05-10T00:14:29.992Z - This workflow will:
+2025-05-10T00:14:29.992Z - 1. Go to pickup docking point (Pick-up_Load_docking)
+2025-05-10T00:14:29.993Z - 2. Align with rack at pickup point (Pick-up_Load)
+2025-05-10T00:14:29.993Z - 3. Jack up to grab bin
+2025-05-10T00:14:29.993Z - 4. Go to 104 docking point (104_Load_docking)
+2025-05-10T00:14:29.993Z - 5. Move to 104 point (104_Load) for precise dropoff
+2025-05-10T00:14:29.994Z - 6. Jack down to release bin
+2025-05-10T00:14:29.994Z - 7. Move away from 104 for safety
+2025-05-10T00:14:29.994Z - 8. (Optional) Return to charger if available
+2025-05-10T00:14:29.995Z - ❗ IMPORTANT: The mission is now in progress on the robot.
+2025-05-10T00:14:29.995Z - ❗ Test complete. The robot will continue executing the workflow.
+2025-05-10T00:14:29.996Z - ❗ If you need to stop the robot for any reason, use the emergency stop button or cancel the mission via the API.
+2025-05-10T00:36:39.259Z - 🚀 Starting test: Pickup from main pickup point to 104 workflow...
+2025-05-10T00:36:41.821Z - ✅ Workflow started with mission ID: mission_1746837401800_vo1n92k
+2025-05-10T00:36:41.822Z - Total workflow steps: 8
+2025-05-10T00:36:41.823Z - This workflow will:
+2025-05-10T00:36:41.825Z - 1. Go to pickup docking point (Pick-up_Load_docking)
+2025-05-10T00:36:41.826Z - 2. Align with rack at pickup point (Pick-up_Load)
+2025-05-10T00:36:41.827Z - 3. Jack up to grab bin
+2025-05-10T00:36:41.828Z - 4. Go to 104 docking point (104_Load_docking)
+2025-05-10T00:36:41.829Z - 5. Move to 104 point (104_Load) for precise dropoff
+2025-05-10T00:36:41.829Z - 6. Jack down to release bin
+2025-05-10T00:36:41.829Z - 7. Move away from 104 for safety
+2025-05-10T00:36:41.830Z - 8. (Optional) Return to charger if available
+2025-05-10T00:36:41.830Z - ❗ IMPORTANT: The mission is now in progress on the robot.
+2025-05-10T00:36:41.830Z - ❗ Test complete. The robot will continue executing the workflow.
+2025-05-10T00:36:41.831Z - ❗ If you need to stop the robot for any reason, use the emergency stop button or cancel the mission via the API.
+2025-05-10T00:43:51.930Z - 🚀 Starting test: Pickup from main pickup point to 104 workflow...
+2025-05-10T00:43:52.764Z - ✅ Workflow started with mission ID: mission_1746837832731_qtvs6bn
+2025-05-10T00:43:52.765Z - Total workflow steps: 8
+2025-05-10T00:43:52.765Z - This workflow will:
+2025-05-10T00:43:52.766Z - 1. Go to pickup docking point (Pick-up_Load_docking)
+2025-05-10T00:43:52.766Z - 2. Align with rack at pickup point (Pick-up_Load)
+2025-05-10T00:43:52.766Z - 3. Jack up to grab bin
+2025-05-10T00:43:52.767Z - 4. Go to 104 docking point (104_Load_docking)
+2025-05-10T00:43:52.768Z - 5. Move to 104 point (104_Load) for precise dropoff
+2025-05-10T00:43:52.768Z - 6. Jack down to release bin
+2025-05-10T00:43:52.769Z - 7. Move away from 104 for safety
+2025-05-10T00:43:52.769Z - 8. (Optional) Return to charger if available
+2025-05-10T00:43:52.769Z - ❗ IMPORTANT: The mission is now in progress on the robot.
+2025-05-10T00:43:52.770Z - ❗ Test complete. The robot will continue executing the workflow.
+2025-05-10T00:43:52.771Z - ❗ If you need to stop the robot for any reason, use the emergency stop button or cancel the mission via the API.
+2025-05-13T20:45:57.332Z - 🚀 Starting test: Pickup from main pickup point to 104 workflow...
+2025-05-13T20:45:57.745Z - ❌ Error: Request failed with status code 500
+2025-05-13T20:46:51.220Z - 🚀 Starting test: Pickup from main pickup point to 104 workflow...
+2025-05-13T20:46:52.439Z - ✅ Workflow started with mission ID: mission_1747169212387_ho04g0x
+2025-05-13T20:46:52.440Z - Total workflow steps: 8
+2025-05-13T20:46:52.441Z - This workflow will:
+2025-05-13T20:46:52.441Z - 1. Go to pickup docking point (Pick-up_Load_docking)
+2025-05-13T20:46:52.442Z - 2. Align with rack at pickup point (Pick-up_Load)
+2025-05-13T20:46:52.442Z - 3. Jack up to grab bin
+2025-05-13T20:46:52.442Z - 4. Go to 104 docking point (104_Load_docking)
+2025-05-13T20:46:52.444Z - 5. Move to 104 point (104_Load) for precise dropoff
+2025-05-13T20:46:52.444Z - 6. Jack down to release bin
+2025-05-13T20:46:52.444Z - 7. Move away from 104 for safety
+2025-05-13T20:46:52.445Z - 8. (Optional) Return to charger if available
+2025-05-13T20:46:52.445Z - ❗ IMPORTANT: The mission is now in progress on the robot.
+2025-05-13T20:46:52.445Z - ❗ Test complete. The robot will continue executing the workflow.
+2025-05-13T20:46:52.446Z - ❗ If you need to stop the robot for any reason, use the emergency stop button or cancel the mission via the API.

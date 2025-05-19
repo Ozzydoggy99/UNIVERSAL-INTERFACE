@@ -1,0 +1,81 @@
+🧩 Replit Prompt: Fix Point Mismatch and Confirm Full Mission Execution
+1. ✅ Update server/backend/mission-runner.ts to log all point resolutions and execution steps
+Paste this entire function to replace your current runMission():
+
+ts
+Copy
+Edit
+import axios from "axios";
+import { ROBOT_API_URL, ROBOT_SECRET } from "../robot-constants";
+import { Point, RobotTaskRequest } from "../types";
+
+export async function runMission({ shelfId, uiMode, points }: RobotTaskRequest) {
+  const normalize = (val: string) => String(val).trim().toLowerCase();
+
+  const pickup = points.find(p => normalize(p.id) === "pick-up");
+  const dropoff = points.find(p => normalize(p.id) === "drop-off");
+  const standby = points.find(p => normalize(p.id) === "desk");
+  const shelf = points.find(p => normalize(p.id) === normalize(shelfId));
+
+  console.log("MATCHED POINTS:");
+  console.log("Shelf: ", shelf?.id, shelf?.x, shelf?.y);
+  console.log("Drop-off: ", dropoff?.id, dropoff?.x, dropoff?.y);
+  console.log("Pickup: ", pickup?.id, pickup?.x, pickup?.y);
+  console.log("Desk: ", standby?.id, standby?.x, standby?.y);
+
+  if (!pickup || !dropoff || !standby || !shelf) {
+    throw new Error("❌ One or more required points (pickup/dropoff/desk/shelf) not found.");
+  }
+
+  const steps: Point[] = [];
+
+  if (uiMode === "pickup") {
+    steps.push(shelf);
+    steps.push(dropoff);
+  } else {
+    steps.push(standby);
+    steps.push(pickup);
+    steps.push(shelf);
+  }
+
+  steps.push(standby);
+
+  const executed = [];
+
+  for (const point of steps) {
+    console.log(`➡️ Sending robot to: ${point.id} (${point.x}, ${point.y})`);
+
+    const response = await axios.post(`${ROBOT_API_URL}/chassis/moves`, {
+      action: "move_to",
+      target_x: point.x,
+      target_y: point.y,
+    }, {
+      headers: { "x-api-key": ROBOT_SECRET },
+    });
+
+    console.log(`✅ Move to ${point.id} succeeded:`, response.data);
+    executed.push({ to: point.id, result: response.data });
+  }
+
+  return {
+    mission: `${uiMode}-${shelfId}-${Date.now()}`,
+    status: "complete",
+    executed,
+  };
+}
+2. ❌ Disable fallback point injection (optional but recommended)
+If you're still using robot-map-data.ts, comment out any imports like this:
+
+ts
+Copy
+Edit
+// import { ROBOT_MAP_POINTS } from './robot-map-data'; // Disable this
+3. 🔁 Restart Replit App and Re-Test
+Then run this in the Replit shell to verify:
+
+bash
+Copy
+Edit
+curl -X POST http://localhost:5000/api/mission \
+  -H "Content-Type: application/json" \
+  -d '{"uiMode": "pickup", "shelfId": "104"}'

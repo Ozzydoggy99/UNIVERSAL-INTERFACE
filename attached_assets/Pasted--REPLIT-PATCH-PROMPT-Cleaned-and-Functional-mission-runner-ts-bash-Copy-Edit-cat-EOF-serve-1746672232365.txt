@@ -1,0 +1,70 @@
+🧩 REPLIT PATCH PROMPT — Cleaned and Functional mission-runner.ts
+bash
+Copy
+Edit
+cat <<'EOF' > server/backend/mission-runner.ts
+// PATCH: mission-runner.ts - Comprehensive version using verified endpoints and structured logging
+
+import axios from "axios";
+import { ROBOT_API_URL, ROBOT_SECRET } from "../robot-constants";
+import { Point } from "../types";
+import { appendLog } from "../debug-log";
+
+const headers = { "x-api-key": ROBOT_SECRET };
+
+interface RobotTaskRequest {
+  shelfId: string;
+  uiMode: "pickup" | "dropoff";
+  points: Point[];
+}
+
+// Utility to pause for movement buffering (used until robot confirms movement completion)
+const wait = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
+
+export async function runMission({ shelfId, uiMode, points }: RobotTaskRequest) {
+  const normalize = (val: string) => String(val).trim().toLowerCase();
+  const find = (id: string) => points.find(p => normalize(p.id) === normalize(id));
+
+  const pickup = find("pick-up");
+  const dropoff = find("drop-off");
+  const standby = find("desk") || find("standby");
+  const shelf = find(shelfId);
+
+  if (!pickup || !dropoff || !standby || !shelf) {
+    throw new Error("❌ Required point(s) not found: pickup, dropoff, desk/standby, shelf");
+  }
+
+  // Define mission step sequence
+  const sequence = uiMode === "pickup"
+    ? [shelf, dropoff, standby]
+    : [standby, pickup, shelf, standby];
+
+  appendLog("\n[MISSION START]");
+  appendLog(`Mode: ${uiMode}`);
+  appendLog(`Shelf: ${shelf.id} → (${shelf.x}, ${shelf.y})`);
+  appendLog(`Pickup: ${pickup.id} → (${pickup.x}, ${pickup.y})`);
+  appendLog(`Drop-off: ${dropoff.id} → (${dropoff.x}, ${dropoff.y})`);
+  appendLog(`Standby: ${standby.id} → (${standby.x}, ${standby.y})`);
+
+  for (const point of sequence) {
+    try {
+      appendLog(`➡️ Sending robot to: ${point.id} (${point.x}, ${point.y})`);
+      const response = await axios.post(\`\${ROBOT_API_URL}/chassis/moves\`, {
+        action: "move_to",
+        target_x: point.x,
+        target_y: point.y
+      }, { headers });
+
+      appendLog(\`✅ Move acknowledged: \${point.id} — MoveID: \${response.data?.id}\`);
+    } catch (err: any) {
+      appendLog(\`❌ Failed to move to \${point.id}: \${err.message}\`);
+      throw new Error(\`Movement failed for \${point.id}\`);
+    }
+
+    // TEMP: wait buffer until real status endpoint is used
+    await wait(5000);
+  }
+
+  appendLog("[MISSION COMPLETE]\n");
+}
+EOF
