@@ -5813,3 +5813,285 @@
 [2025-05-19T19:15:57.202Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
 [2025-05-19T19:15:57.203Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
 [2025-05-19T19:15:57.203Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T19:26:27.352Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T19:26:27.354Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T19:26:27.374Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T19:26:27.375Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T19:26:27.375Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T19:26:27.376Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T19:32:49.310Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T19:32:49.313Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T19:32:49.332Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T19:32:49.333Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T19:32:49.333Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T19:32:49.334Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T19:35:24.274Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T19:35:24.277Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T19:35:24.315Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T19:35:24.320Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T19:35:24.321Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T19:35:24.322Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T20:01:34.698Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T20:01:34.701Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T20:01:34.715Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T20:01:34.716Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T20:01:34.716Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T20:01:34.716Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T20:09:35.076Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T20:09:35.077Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T20:09:35.096Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T20:09:35.097Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T20:09:35.097Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T20:09:35.098Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T20:14:37.570Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T20:14:37.573Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T20:14:37.598Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T20:14:37.599Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T20:14:37.599Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T20:14:37.600Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T20:30:47.074Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T20:30:47.074Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T20:30:47.091Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T20:30:47.092Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T20:30:47.093Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T20:30:47.093Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T20:48:46.600Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T20:48:46.601Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T20:48:46.621Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T20:48:46.622Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T20:48:46.622Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T20:48:46.623Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T21:20:31.860Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T21:20:31.863Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T21:20:31.878Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T21:20:31.879Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T21:20:31.879Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T21:20:31.879Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T21:27:59.217Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T21:27:59.219Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T21:27:59.239Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T21:27:59.240Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T21:27:59.240Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T21:27:59.241Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T21:37:18.814Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T21:37:18.818Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T21:37:18.832Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T21:37:18.832Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T21:37:18.833Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T21:37:18.833Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T21:38:10.508Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T21:38:10.509Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T21:38:10.530Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T21:38:10.531Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T21:38:10.531Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T21:38:10.532Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T21:39:44.971Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T21:39:44.972Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T21:39:44.990Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T21:39:44.991Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T21:39:44.991Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T21:39:44.991Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T21:40:43.243Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T21:40:43.244Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T21:40:43.259Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T21:40:43.260Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T21:40:43.260Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T21:40:43.260Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T21:45:01.730Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T21:45:01.731Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T21:45:01.753Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T21:45:01.754Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T21:45:01.754Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T21:45:01.755Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T21:47:06.382Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T21:47:06.383Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T21:47:06.421Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T21:47:06.422Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T21:47:06.424Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T21:47:06.425Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T21:54:33.031Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T21:54:33.032Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T21:54:33.049Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T21:54:33.050Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T21:54:33.050Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T21:54:33.051Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T22:00:09.300Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T22:00:09.301Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T22:00:09.320Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T22:00:09.321Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T22:00:09.322Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T22:00:09.322Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T22:03:13.524Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T22:03:13.525Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T22:03:13.544Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T22:03:13.546Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T22:03:13.546Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T22:03:13.547Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T22:03:33.727Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T22:03:33.729Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T22:03:33.756Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T22:03:33.759Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T22:03:33.760Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T22:03:33.764Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T22:05:07.155Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T22:05:07.156Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T22:05:07.180Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T22:05:07.182Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T22:05:07.182Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T22:05:07.183Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T22:36:00.087Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T22:36:00.088Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T22:36:00.107Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T22:36:00.108Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T22:36:00.108Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T22:36:00.109Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T22:41:31.687Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T22:41:31.688Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T22:41:31.713Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T22:41:31.715Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T22:41:31.715Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T22:41:31.715Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T22:41:43.436Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T22:41:43.437Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T22:41:43.455Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T22:41:43.457Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T22:41:43.457Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T22:41:43.458Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T22:41:57.056Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T22:41:57.057Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T22:41:57.078Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T22:41:57.079Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T22:41:57.079Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T22:41:57.080Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T22:57:02.131Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T22:57:02.132Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T22:57:02.151Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T22:57:02.153Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T22:57:02.154Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T22:57:02.154Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T23:06:37.044Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T23:06:37.047Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T23:06:37.073Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T23:06:37.074Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T23:06:37.074Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T23:06:37.075Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T23:08:24.271Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T23:08:24.271Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T23:08:24.289Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T23:08:24.290Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T23:08:24.290Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T23:08:24.291Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T23:08:40.984Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T23:08:40.985Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T23:08:41.002Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T23:08:41.003Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T23:08:41.004Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T23:08:41.004Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T23:08:57.609Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T23:08:57.610Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T23:08:57.645Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T23:08:57.647Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T23:08:57.648Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T23:08:57.649Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T23:10:01.258Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T23:10:01.259Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T23:10:01.274Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T23:10:01.274Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T23:10:01.275Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T23:10:01.275Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T23:12:39.515Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T23:12:39.515Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T23:12:39.535Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T23:12:39.536Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T23:12:39.536Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T23:12:39.537Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-19T23:13:18.110Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-19T23:13:18.111Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-19T23:13:18.125Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-19T23:13:18.126Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-19T23:13:18.127Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-19T23:13:18.127Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-20T00:05:23.664Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-20T00:05:23.665Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-20T00:05:23.683Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-20T00:05:23.685Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-20T00:05:23.685Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-20T00:05:23.686Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-20T01:27:03.888Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-20T01:27:03.890Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-20T01:27:03.905Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-20T01:27:03.906Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-20T01:27:03.907Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-20T01:27:03.907Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-20T01:46:34.858Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-20T01:46:34.859Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-20T01:46:34.882Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-20T01:46:34.884Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-20T01:46:34.884Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-20T01:46:34.885Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-20T02:09:38.952Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-20T02:09:38.953Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-20T02:09:38.971Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-20T02:09:38.972Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-20T02:09:38.972Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-20T02:09:38.972Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-20T02:34:47.168Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-20T02:34:47.171Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-20T02:34:47.189Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-20T02:34:47.190Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-20T02:34:47.191Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-20T02:34:47.191Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-20T02:45:26.424Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-20T02:45:26.425Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-20T02:45:26.446Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-20T02:45:26.447Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-20T02:45:26.447Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-20T02:45:26.448Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-20T02:45:51.260Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-20T02:45:51.272Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-20T02:45:51.294Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-20T02:45:51.295Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-20T02:45:51.296Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-20T02:45:51.296Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-20T02:47:14.349Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-20T02:47:14.350Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-20T02:47:14.363Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-20T02:47:14.364Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-20T02:47:14.364Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-20T02:47:14.365Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-20T04:35:22.675Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-20T04:35:22.678Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-20T04:35:22.698Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-20T04:35:22.699Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-20T04:35:22.700Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-20T04:35:22.700Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-20T04:35:57.901Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-20T04:35:57.902Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-20T04:35:57.925Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-20T04:35:57.926Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-20T04:35:57.926Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-20T04:35:57.926Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-20T06:17:31.667Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-20T06:17:31.732Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-20T06:17:31.749Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-20T06:17:31.750Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-20T06:17:31.751Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-20T06:17:31.751Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-20T16:08:07.856Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-20T16:08:07.859Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-20T16:08:07.884Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-20T16:08:07.893Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-20T16:08:07.897Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-20T16:08:07.897Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-20T16:25:26.843Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-20T16:25:26.845Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-20T16:25:26.861Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-20T16:25:26.861Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-20T16:25:26.862Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-20T16:25:26.862Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler
+[2025-05-20T17:12:57.157Z] [LOCAL-PICKUP] Registered local pickup handler for both path variants
+[2025-05-20T17:12:57.158Z] [LOCAL-DROPOFF] Registered local dropoff handler for both path variants
+[2025-05-20T17:12:57.247Z] [RETURN-TO-CHARGER] Registered jack_down and return-to-charger handlers
+[2025-05-20T17:12:57.248Z] [ZONE-104-WORKFLOW] ✅ Registered zone-104 workflow handler with charger return
+[2025-05-20T17:12:57.248Z] [PICKUP-TO-104] ✅ Registered pickup-to-104 workflow handler
+[2025-05-20T17:12:57.249Z] [PICKUP-FROM-104] ✅ Registered pickup-from-104 workflow handler

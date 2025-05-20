@@ -1637,3 +1637,942 @@
 [2025-05-19T19:18:56.918Z] [WORKFLOW-82f6bd06-abd1-4df0-b600-c4a30c41f861] Getting coordinates for point: 115_load
 [2025-05-19T19:18:56.918Z] [WORKFLOW-82f6bd06-abd1-4df0-b600-c4a30c41f861] Found coordinates for 115_load: (-6.917, 6.721, 0)
 [2025-05-19T19:18:56.943Z] [WORKFLOW-82f6bd06-abd1-4df0-b600-c4a30c41f861] ✅ Created central-to-shelf mission with ID: mission_1747682336918_443m15e
+[2025-05-19T19:21:20.895Z] [WORKFLOW-9b15fd45-fb85-4152-a17c-0cd533a6841a] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-19T19:21:20.898Z] [WORKFLOW-9b15fd45-fb85-4152-a17c-0cd533a6841a] ✅ Cancelled any existing active missions
+[2025-05-19T19:21:20.898Z] [WORKFLOW-9b15fd45-fb85-4152-a17c-0cd533a6841a] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-19T19:21:20.898Z] [WORKFLOW-9b15fd45-fb85-4152-a17c-0cd533a6841a] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T19:21:20.898Z] [WORKFLOW-9b15fd45-fb85-4152-a17c-0cd533a6841a] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T19:21:20.899Z] [WORKFLOW-9b15fd45-fb85-4152-a17c-0cd533a6841a] Getting coordinates for point: 050_load_docking
+[2025-05-19T19:21:20.900Z] [WORKFLOW-9b15fd45-fb85-4152-a17c-0cd533a6841a] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T19:21:20.900Z] [WORKFLOW-9b15fd45-fb85-4152-a17c-0cd533a6841a] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T19:21:20.900Z] [WORKFLOW-9b15fd45-fb85-4152-a17c-0cd533a6841a] Processed point ID: 050_load → 050_load
+[2025-05-19T19:21:20.900Z] [WORKFLOW-9b15fd45-fb85-4152-a17c-0cd533a6841a] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T19:21:20.901Z] [WORKFLOW-9b15fd45-fb85-4152-a17c-0cd533a6841a] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T19:21:20.901Z] [WORKFLOW-9b15fd45-fb85-4152-a17c-0cd533a6841a] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T19:21:20.901Z] [WORKFLOW-9b15fd45-fb85-4152-a17c-0cd533a6841a] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-19T19:21:20.901Z] [WORKFLOW-9b15fd45-fb85-4152-a17c-0cd533a6841a] Getting coordinates for point: 115_load
+[2025-05-19T19:21:20.901Z] [WORKFLOW-9b15fd45-fb85-4152-a17c-0cd533a6841a] Found coordinates for 115_load: (-6.917, 6.721, 0)
+[2025-05-19T19:21:20.907Z] [WORKFLOW-9b15fd45-fb85-4152-a17c-0cd533a6841a] ✅ Created central-to-shelf mission with ID: mission_1747682480902_ecit82t
+[2025-05-19T19:27:37.150Z] [WORKFLOW-b9dc247f-4859-4e65-a5d5-7f3ddbf2a991] Starting workflow shelf-to-central with params: {"serviceType":"robot","operationType":"pickup","floorId":"4","shelfId":"115_load"}
+[2025-05-19T19:27:37.160Z] [WORKFLOW-b9dc247f-4859-4e65-a5d5-7f3ddbf2a991] ✅ Cancelled any existing active missions
+[2025-05-19T19:27:37.160Z] [WORKFLOW-b9dc247f-4859-4e65-a5d5-7f3ddbf2a991] Using generic shelf-to-central template with pickupShelf=115_load
+[2025-05-19T19:27:37.160Z] [WORKFLOW-b9dc247f-4859-4e65-a5d5-7f3ddbf2a991] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T19:27:37.160Z] [WORKFLOW-b9dc247f-4859-4e65-a5d5-7f3ddbf2a991] Processed point ID: {pickupShelf}_load_docking → 115_load_docking
+[2025-05-19T19:27:37.160Z] [WORKFLOW-b9dc247f-4859-4e65-a5d5-7f3ddbf2a991] Getting coordinates for point: 115_load_docking
+[2025-05-19T19:27:37.161Z] [WORKFLOW-b9dc247f-4859-4e65-a5d5-7f3ddbf2a991] Found coordinates for 115_load_docking: (-6.917, 6.721, 0)
+[2025-05-19T19:27:37.161Z] [WORKFLOW-b9dc247f-4859-4e65-a5d5-7f3ddbf2a991] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T19:27:37.161Z] [WORKFLOW-b9dc247f-4859-4e65-a5d5-7f3ddbf2a991] Processed point ID: {pickupShelf}_load → 115_load
+[2025-05-19T19:27:37.161Z] [WORKFLOW-b9dc247f-4859-4e65-a5d5-7f3ddbf2a991] Getting shelf alignment coordinates for: 115_load
+[2025-05-19T19:27:37.161Z] [WORKFLOW-b9dc247f-4859-4e65-a5d5-7f3ddbf2a991] Found shelf coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-19T19:27:37.161Z] [WORKFLOW-b9dc247f-4859-4e65-a5d5-7f3ddbf2a991] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T19:27:37.162Z] [WORKFLOW-b9dc247f-4859-4e65-a5d5-7f3ddbf2a991] Processed point ID: 001_load → 001_load
+[2025-05-19T19:27:37.162Z] [WORKFLOW-b9dc247f-4859-4e65-a5d5-7f3ddbf2a991] Getting coordinates for point: 001_load
+[2025-05-19T19:27:37.162Z] [WORKFLOW-b9dc247f-4859-4e65-a5d5-7f3ddbf2a991] Found coordinates for 001_load: (-1.85, 3.366, 0)
+[2025-05-19T19:27:37.187Z] [WORKFLOW-b9dc247f-4859-4e65-a5d5-7f3ddbf2a991] ✅ Created shelf-to-central mission with ID: mission_1747682857162_5vfsuub and 6 steps
+[2025-05-19T19:43:18.530Z] [WORKFLOW-83b08fa0-09e8-4719-aada-105be67a71b8] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-19T19:43:18.538Z] [WORKFLOW-83b08fa0-09e8-4719-aada-105be67a71b8] ✅ Cancelled any existing active missions
+[2025-05-19T19:43:18.538Z] [WORKFLOW-83b08fa0-09e8-4719-aada-105be67a71b8] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-19T19:43:18.538Z] [WORKFLOW-83b08fa0-09e8-4719-aada-105be67a71b8] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T19:43:18.539Z] [WORKFLOW-83b08fa0-09e8-4719-aada-105be67a71b8] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T19:43:18.539Z] [WORKFLOW-83b08fa0-09e8-4719-aada-105be67a71b8] Getting coordinates for point: 050_load_docking
+[2025-05-19T19:43:18.539Z] [WORKFLOW-83b08fa0-09e8-4719-aada-105be67a71b8] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T19:43:18.539Z] [WORKFLOW-83b08fa0-09e8-4719-aada-105be67a71b8] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T19:43:18.539Z] [WORKFLOW-83b08fa0-09e8-4719-aada-105be67a71b8] Processed point ID: 050_load → 050_load
+[2025-05-19T19:43:18.540Z] [WORKFLOW-83b08fa0-09e8-4719-aada-105be67a71b8] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T19:43:18.540Z] [WORKFLOW-83b08fa0-09e8-4719-aada-105be67a71b8] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T19:43:18.540Z] [WORKFLOW-83b08fa0-09e8-4719-aada-105be67a71b8] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T19:43:18.540Z] [WORKFLOW-83b08fa0-09e8-4719-aada-105be67a71b8] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-19T19:43:18.540Z] [WORKFLOW-83b08fa0-09e8-4719-aada-105be67a71b8] Getting unload point coordinates for: 115_load
+[2025-05-19T19:43:18.540Z] [WORKFLOW-83b08fa0-09e8-4719-aada-105be67a71b8] Found unload point coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-19T19:43:18.541Z] [WORKFLOW-83b08fa0-09e8-4719-aada-105be67a71b8] CRITICAL FIX: Using full point ID "115_load" as rack_area_id instead of extracted prefix
+[2025-05-19T19:43:18.541Z] [WORKFLOW-83b08fa0-09e8-4719-aada-105be67a71b8] This ensures consistent behavior with to-unload-point-action.ts implementation
+[2025-05-19T19:43:18.541Z] [WORKFLOW-83b08fa0-09e8-4719-aada-105be67a71b8] FINAL rack_area_id = "115_load" for point "115_load"
+[2025-05-19T19:43:18.551Z] [WORKFLOW-83b08fa0-09e8-4719-aada-105be67a71b8] ✅ Created central-to-shelf mission with ID: mission_1747683798542_ho4wbwo
+[2025-05-19T19:53:50.738Z] [WORKFLOW-ec24219c-48d1-47a2-b2ed-19974f9f6bcc] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-19T19:53:50.740Z] [WORKFLOW-ec24219c-48d1-47a2-b2ed-19974f9f6bcc] ✅ Cancelled any existing active missions
+[2025-05-19T19:53:50.740Z] [WORKFLOW-ec24219c-48d1-47a2-b2ed-19974f9f6bcc] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-19T19:53:50.741Z] [WORKFLOW-ec24219c-48d1-47a2-b2ed-19974f9f6bcc] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T19:53:50.741Z] [WORKFLOW-ec24219c-48d1-47a2-b2ed-19974f9f6bcc] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T19:53:50.741Z] [WORKFLOW-ec24219c-48d1-47a2-b2ed-19974f9f6bcc] Getting coordinates for point: 050_load_docking
+[2025-05-19T19:53:50.741Z] [WORKFLOW-ec24219c-48d1-47a2-b2ed-19974f9f6bcc] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T19:53:50.741Z] [WORKFLOW-ec24219c-48d1-47a2-b2ed-19974f9f6bcc] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T19:53:50.742Z] [WORKFLOW-ec24219c-48d1-47a2-b2ed-19974f9f6bcc] Processed point ID: 050_load → 050_load
+[2025-05-19T19:53:50.742Z] [WORKFLOW-ec24219c-48d1-47a2-b2ed-19974f9f6bcc] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T19:53:50.742Z] [WORKFLOW-ec24219c-48d1-47a2-b2ed-19974f9f6bcc] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T19:53:50.742Z] [WORKFLOW-ec24219c-48d1-47a2-b2ed-19974f9f6bcc] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T19:53:50.743Z] [WORKFLOW-ec24219c-48d1-47a2-b2ed-19974f9f6bcc] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-19T19:53:50.743Z] [WORKFLOW-ec24219c-48d1-47a2-b2ed-19974f9f6bcc] Getting unload point coordinates for: 115_load
+[2025-05-19T19:53:50.743Z] [WORKFLOW-ec24219c-48d1-47a2-b2ed-19974f9f6bcc] Found unload point coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-19T19:53:50.743Z] [WORKFLOW-ec24219c-48d1-47a2-b2ed-19974f9f6bcc] CRITICAL FIX: Using full point ID "115_load" as rack_area_id instead of extracted prefix
+[2025-05-19T19:53:50.743Z] [WORKFLOW-ec24219c-48d1-47a2-b2ed-19974f9f6bcc] This ensures consistent behavior with to-unload-point-action.ts implementation
+[2025-05-19T19:53:50.743Z] [WORKFLOW-ec24219c-48d1-47a2-b2ed-19974f9f6bcc] FINAL rack_area_id = "115_load" for point "115_load"
+[2025-05-19T19:53:50.766Z] [WORKFLOW-ec24219c-48d1-47a2-b2ed-19974f9f6bcc] ✅ Created central-to-shelf mission with ID: mission_1747684430744_9qk2cf2
+[2025-05-19T19:57:17.016Z] [WORKFLOW-456b8873-6841-4131-860b-60f44b8c1c54] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-19T19:57:17.018Z] [WORKFLOW-456b8873-6841-4131-860b-60f44b8c1c54] ✅ Cancelled any existing active missions
+[2025-05-19T19:57:17.018Z] [WORKFLOW-456b8873-6841-4131-860b-60f44b8c1c54] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-19T19:57:17.018Z] [WORKFLOW-456b8873-6841-4131-860b-60f44b8c1c54] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T19:57:17.018Z] [WORKFLOW-456b8873-6841-4131-860b-60f44b8c1c54] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T19:57:17.018Z] [WORKFLOW-456b8873-6841-4131-860b-60f44b8c1c54] Getting coordinates for point: 050_load_docking
+[2025-05-19T19:57:17.019Z] [WORKFLOW-456b8873-6841-4131-860b-60f44b8c1c54] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T19:57:17.019Z] [WORKFLOW-456b8873-6841-4131-860b-60f44b8c1c54] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T19:57:17.019Z] [WORKFLOW-456b8873-6841-4131-860b-60f44b8c1c54] Processed point ID: 050_load → 050_load
+[2025-05-19T19:57:17.019Z] [WORKFLOW-456b8873-6841-4131-860b-60f44b8c1c54] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T19:57:17.019Z] [WORKFLOW-456b8873-6841-4131-860b-60f44b8c1c54] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T19:57:17.020Z] [WORKFLOW-456b8873-6841-4131-860b-60f44b8c1c54] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T19:57:17.020Z] [WORKFLOW-456b8873-6841-4131-860b-60f44b8c1c54] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-19T19:57:17.020Z] [WORKFLOW-456b8873-6841-4131-860b-60f44b8c1c54] Getting unload point coordinates for: 115_load
+[2025-05-19T19:57:17.020Z] [WORKFLOW-456b8873-6841-4131-860b-60f44b8c1c54] Found unload point coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-19T19:57:17.020Z] [WORKFLOW-456b8873-6841-4131-860b-60f44b8c1c54] CRITICAL FIX: Using full point ID "115_load" as rack_area_id instead of extracted prefix
+[2025-05-19T19:57:17.020Z] [WORKFLOW-456b8873-6841-4131-860b-60f44b8c1c54] This ensures consistent behavior with to-unload-point-action.ts implementation
+[2025-05-19T19:57:17.020Z] [WORKFLOW-456b8873-6841-4131-860b-60f44b8c1c54] FINAL rack_area_id = "115_load" for point "115_load"
+[2025-05-19T19:57:17.044Z] [WORKFLOW-456b8873-6841-4131-860b-60f44b8c1c54] ✅ Created central-to-shelf mission with ID: mission_1747684637021_p7fwjj3
+[2025-05-19T20:05:45.240Z] [WORKFLOW-22221f64-1db8-439f-987a-16d3dd381ffa] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-19T20:05:45.263Z] [WORKFLOW-22221f64-1db8-439f-987a-16d3dd381ffa] ✅ Cancelled any existing active missions
+[2025-05-19T20:05:45.263Z] [WORKFLOW-22221f64-1db8-439f-987a-16d3dd381ffa] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-19T20:05:45.264Z] [WORKFLOW-22221f64-1db8-439f-987a-16d3dd381ffa] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T20:05:45.264Z] [WORKFLOW-22221f64-1db8-439f-987a-16d3dd381ffa] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T20:05:45.264Z] [WORKFLOW-22221f64-1db8-439f-987a-16d3dd381ffa] Getting coordinates for point: 050_load_docking
+[2025-05-19T20:05:45.264Z] [WORKFLOW-22221f64-1db8-439f-987a-16d3dd381ffa] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T20:05:45.264Z] [WORKFLOW-22221f64-1db8-439f-987a-16d3dd381ffa] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T20:05:45.264Z] [WORKFLOW-22221f64-1db8-439f-987a-16d3dd381ffa] Processed point ID: 050_load → 050_load
+[2025-05-19T20:05:45.264Z] [WORKFLOW-22221f64-1db8-439f-987a-16d3dd381ffa] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T20:05:45.265Z] [WORKFLOW-22221f64-1db8-439f-987a-16d3dd381ffa] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T20:05:45.265Z] [WORKFLOW-22221f64-1db8-439f-987a-16d3dd381ffa] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T20:05:45.265Z] [WORKFLOW-22221f64-1db8-439f-987a-16d3dd381ffa] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-19T20:05:45.265Z] [WORKFLOW-22221f64-1db8-439f-987a-16d3dd381ffa] Getting unload point coordinates for: 115_load
+[2025-05-19T20:05:45.265Z] [WORKFLOW-22221f64-1db8-439f-987a-16d3dd381ffa] Found unload point coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-19T20:05:45.265Z] [WORKFLOW-22221f64-1db8-439f-987a-16d3dd381ffa] CRITICAL FIX: Using full point ID "115_load" as rack_area_id instead of extracted prefix
+[2025-05-19T20:05:45.266Z] [WORKFLOW-22221f64-1db8-439f-987a-16d3dd381ffa] This ensures consistent behavior with to-unload-point-action.ts implementation
+[2025-05-19T20:05:45.266Z] [WORKFLOW-22221f64-1db8-439f-987a-16d3dd381ffa] FINAL rack_area_id = "115_load" for point "115_load"
+[2025-05-19T20:05:45.301Z] [WORKFLOW-22221f64-1db8-439f-987a-16d3dd381ffa] ✅ Created central-to-shelf mission with ID: mission_1747685145266_f9dfj9a
+[2025-05-19T20:11:08.905Z] [WORKFLOW-edb805f6-ea30-4d29-bc69-17b9313b3826] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-19T20:11:08.910Z] [WORKFLOW-edb805f6-ea30-4d29-bc69-17b9313b3826] ✅ Cancelled any existing active missions
+[2025-05-19T20:11:08.910Z] [WORKFLOW-edb805f6-ea30-4d29-bc69-17b9313b3826] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-19T20:11:08.910Z] [WORKFLOW-edb805f6-ea30-4d29-bc69-17b9313b3826] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T20:11:08.910Z] [WORKFLOW-edb805f6-ea30-4d29-bc69-17b9313b3826] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T20:11:08.910Z] [WORKFLOW-edb805f6-ea30-4d29-bc69-17b9313b3826] Getting coordinates for point: 050_load_docking
+[2025-05-19T20:11:08.910Z] [WORKFLOW-edb805f6-ea30-4d29-bc69-17b9313b3826] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T20:11:08.911Z] [WORKFLOW-edb805f6-ea30-4d29-bc69-17b9313b3826] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T20:11:08.911Z] [WORKFLOW-edb805f6-ea30-4d29-bc69-17b9313b3826] Processed point ID: 050_load → 050_load
+[2025-05-19T20:11:08.911Z] [WORKFLOW-edb805f6-ea30-4d29-bc69-17b9313b3826] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T20:11:08.911Z] [WORKFLOW-edb805f6-ea30-4d29-bc69-17b9313b3826] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T20:11:08.911Z] [WORKFLOW-edb805f6-ea30-4d29-bc69-17b9313b3826] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T20:11:08.911Z] [WORKFLOW-edb805f6-ea30-4d29-bc69-17b9313b3826] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-19T20:11:08.911Z] [WORKFLOW-edb805f6-ea30-4d29-bc69-17b9313b3826] Getting unload point coordinates for: 115_load
+[2025-05-19T20:11:08.912Z] [WORKFLOW-edb805f6-ea30-4d29-bc69-17b9313b3826] Found unload point coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-19T20:11:08.912Z] [WORKFLOW-edb805f6-ea30-4d29-bc69-17b9313b3826] CRITICAL FIX: Using full point ID "115_load" as rack_area_id instead of extracted prefix
+[2025-05-19T20:11:08.912Z] [WORKFLOW-edb805f6-ea30-4d29-bc69-17b9313b3826] This ensures consistent behavior with to-unload-point-action.ts implementation
+[2025-05-19T20:11:08.912Z] [WORKFLOW-edb805f6-ea30-4d29-bc69-17b9313b3826] FINAL rack_area_id = "115_load" for point "115_load"
+[2025-05-19T20:11:08.933Z] [WORKFLOW-edb805f6-ea30-4d29-bc69-17b9313b3826] ✅ Created central-to-shelf mission with ID: mission_1747685468912_o6curqd
+[2025-05-19T20:16:46.722Z] [WORKFLOW-868bf215-01c8-4479-b46a-5199906b49b2] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-19T20:16:46.725Z] [WORKFLOW-868bf215-01c8-4479-b46a-5199906b49b2] ✅ Cancelled any existing active missions
+[2025-05-19T20:16:46.725Z] [WORKFLOW-868bf215-01c8-4479-b46a-5199906b49b2] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-19T20:16:46.725Z] [WORKFLOW-868bf215-01c8-4479-b46a-5199906b49b2] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T20:16:46.725Z] [WORKFLOW-868bf215-01c8-4479-b46a-5199906b49b2] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T20:16:46.725Z] [WORKFLOW-868bf215-01c8-4479-b46a-5199906b49b2] Getting coordinates for point: 050_load_docking
+[2025-05-19T20:16:46.730Z] [WORKFLOW-868bf215-01c8-4479-b46a-5199906b49b2] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T20:16:46.730Z] [WORKFLOW-868bf215-01c8-4479-b46a-5199906b49b2] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T20:16:46.730Z] [WORKFLOW-868bf215-01c8-4479-b46a-5199906b49b2] Processed point ID: 050_load → 050_load
+[2025-05-19T20:16:46.731Z] [WORKFLOW-868bf215-01c8-4479-b46a-5199906b49b2] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T20:16:46.731Z] [WORKFLOW-868bf215-01c8-4479-b46a-5199906b49b2] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T20:16:46.731Z] [WORKFLOW-868bf215-01c8-4479-b46a-5199906b49b2] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T20:16:46.731Z] [WORKFLOW-868bf215-01c8-4479-b46a-5199906b49b2] Processed point ID: {dropoffShelf}_load_docking → 115_load_docking
+[2025-05-19T20:16:46.731Z] [WORKFLOW-868bf215-01c8-4479-b46a-5199906b49b2] Getting coordinates for point: 115_load_docking
+[2025-05-19T20:16:46.731Z] [WORKFLOW-868bf215-01c8-4479-b46a-5199906b49b2] Found coordinates for 115_load_docking: (-6.917, 6.721, 0)
+[2025-05-19T20:16:46.731Z] [WORKFLOW-868bf215-01c8-4479-b46a-5199906b49b2] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T20:16:46.732Z] [WORKFLOW-868bf215-01c8-4479-b46a-5199906b49b2] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-19T20:16:46.732Z] [WORKFLOW-868bf215-01c8-4479-b46a-5199906b49b2] Getting unload point coordinates for: 115_load
+[2025-05-19T20:16:46.732Z] [WORKFLOW-868bf215-01c8-4479-b46a-5199906b49b2] Found unload point coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-19T20:16:46.732Z] [WORKFLOW-868bf215-01c8-4479-b46a-5199906b49b2] CRITICAL FIX: Using full point ID "115_load" as rack_area_id instead of extracted prefix
+[2025-05-19T20:16:46.732Z] [WORKFLOW-868bf215-01c8-4479-b46a-5199906b49b2] This ensures consistent behavior with to-unload-point-action.ts implementation
+[2025-05-19T20:16:46.732Z] [WORKFLOW-868bf215-01c8-4479-b46a-5199906b49b2] FINAL rack_area_id = "115_load" for point "115_load"
+[2025-05-19T20:16:46.741Z] [WORKFLOW-868bf215-01c8-4479-b46a-5199906b49b2] ✅ Created central-to-shelf mission with ID: mission_1747685806732_tdnfhu1
+[2025-05-19T20:35:45.285Z] [WORKFLOW-a7c76843-393c-481b-a166-0a21bbd84514] Starting workflow shelf-to-central with params: {"serviceType":"robot","operationType":"pickup","floorId":"4","shelfId":"115_load"}
+[2025-05-19T20:35:45.290Z] [WORKFLOW-a7c76843-393c-481b-a166-0a21bbd84514] ✅ Cancelled any existing active missions
+[2025-05-19T20:35:45.290Z] [WORKFLOW-a7c76843-393c-481b-a166-0a21bbd84514] Using generic shelf-to-central template with pickupShelf=115_load
+[2025-05-19T20:35:45.290Z] [WORKFLOW-a7c76843-393c-481b-a166-0a21bbd84514] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T20:35:45.290Z] [WORKFLOW-a7c76843-393c-481b-a166-0a21bbd84514] Processed point ID: {pickupShelf}_load_docking → 115_load_docking
+[2025-05-19T20:35:45.291Z] [WORKFLOW-a7c76843-393c-481b-a166-0a21bbd84514] Getting coordinates for point: 115_load_docking
+[2025-05-19T20:35:45.293Z] [WORKFLOW-a7c76843-393c-481b-a166-0a21bbd84514] Found coordinates for 115_load_docking: (-6.917, 6.721, 0)
+[2025-05-19T20:35:45.294Z] [WORKFLOW-a7c76843-393c-481b-a166-0a21bbd84514] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T20:35:45.294Z] [WORKFLOW-a7c76843-393c-481b-a166-0a21bbd84514] Processed point ID: {pickupShelf}_load → 115_load
+[2025-05-19T20:35:45.294Z] [WORKFLOW-a7c76843-393c-481b-a166-0a21bbd84514] Getting shelf alignment coordinates for: 115_load
+[2025-05-19T20:35:45.294Z] [WORKFLOW-a7c76843-393c-481b-a166-0a21bbd84514] Found shelf coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-19T20:35:45.294Z] [WORKFLOW-a7c76843-393c-481b-a166-0a21bbd84514] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T20:35:45.294Z] [WORKFLOW-a7c76843-393c-481b-a166-0a21bbd84514] Processed point ID: 001_load_docking → 001_load_docking
+[2025-05-19T20:35:45.294Z] [WORKFLOW-a7c76843-393c-481b-a166-0a21bbd84514] Getting coordinates for point: 001_load_docking
+[2025-05-19T20:35:45.295Z] [WORKFLOW-a7c76843-393c-481b-a166-0a21bbd84514] Found coordinates for 001_load_docking: (-1.85, 3.366, 0)
+[2025-05-19T20:35:45.295Z] [WORKFLOW-a7c76843-393c-481b-a166-0a21bbd84514] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T20:35:45.295Z] [WORKFLOW-a7c76843-393c-481b-a166-0a21bbd84514] Processed point ID: 001_load → 001_load
+[2025-05-19T20:35:45.307Z] [WORKFLOW-a7c76843-393c-481b-a166-0a21bbd84514] ✅ Created shelf-to-central mission with ID: mission_1747686945295_cs7i42p and 6 steps
+[2025-05-19T20:42:01.745Z] [WORKFLOW-0f0aea79-227b-41c4-b659-165620e2b3ed] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-19T20:42:01.747Z] [WORKFLOW-0f0aea79-227b-41c4-b659-165620e2b3ed] ✅ Cancelled any existing active missions
+[2025-05-19T20:42:01.748Z] [WORKFLOW-0f0aea79-227b-41c4-b659-165620e2b3ed] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-19T20:42:01.748Z] [WORKFLOW-0f0aea79-227b-41c4-b659-165620e2b3ed] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T20:42:01.748Z] [WORKFLOW-0f0aea79-227b-41c4-b659-165620e2b3ed] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T20:42:01.748Z] [WORKFLOW-0f0aea79-227b-41c4-b659-165620e2b3ed] Getting coordinates for point: 050_load_docking
+[2025-05-19T20:42:01.748Z] [WORKFLOW-0f0aea79-227b-41c4-b659-165620e2b3ed] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T20:42:01.748Z] [WORKFLOW-0f0aea79-227b-41c4-b659-165620e2b3ed] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T20:42:01.748Z] [WORKFLOW-0f0aea79-227b-41c4-b659-165620e2b3ed] Processed point ID: 050_load → 050_load
+[2025-05-19T20:42:01.749Z] [WORKFLOW-0f0aea79-227b-41c4-b659-165620e2b3ed] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T20:42:01.749Z] [WORKFLOW-0f0aea79-227b-41c4-b659-165620e2b3ed] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T20:42:01.749Z] [WORKFLOW-0f0aea79-227b-41c4-b659-165620e2b3ed] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T20:42:01.749Z] [WORKFLOW-0f0aea79-227b-41c4-b659-165620e2b3ed] Processed point ID: {dropoffShelf}_load_docking → 115_load_docking
+[2025-05-19T20:42:01.749Z] [WORKFLOW-0f0aea79-227b-41c4-b659-165620e2b3ed] Getting coordinates for point: 115_load_docking
+[2025-05-19T20:42:01.749Z] [WORKFLOW-0f0aea79-227b-41c4-b659-165620e2b3ed] Found coordinates for 115_load_docking: (-6.917, 6.721, 0)
+[2025-05-19T20:42:01.750Z] [WORKFLOW-0f0aea79-227b-41c4-b659-165620e2b3ed] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T20:42:01.750Z] [WORKFLOW-0f0aea79-227b-41c4-b659-165620e2b3ed] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-19T20:42:01.750Z] [WORKFLOW-0f0aea79-227b-41c4-b659-165620e2b3ed] Getting unload point coordinates for: 115_load
+[2025-05-19T20:42:01.750Z] [WORKFLOW-0f0aea79-227b-41c4-b659-165620e2b3ed] Found unload point coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-19T20:42:01.750Z] [WORKFLOW-0f0aea79-227b-41c4-b659-165620e2b3ed] CRITICAL FIX: Using full point ID "115_load" as rack_area_id instead of extracted prefix
+[2025-05-19T20:42:01.750Z] [WORKFLOW-0f0aea79-227b-41c4-b659-165620e2b3ed] This ensures consistent behavior with to-unload-point-action.ts implementation
+[2025-05-19T20:42:01.750Z] [WORKFLOW-0f0aea79-227b-41c4-b659-165620e2b3ed] FINAL rack_area_id = "115_load" for point "115_load"
+[2025-05-19T20:42:01.778Z] [WORKFLOW-0f0aea79-227b-41c4-b659-165620e2b3ed] ✅ Created central-to-shelf mission with ID: mission_1747687321751_5ukk40o
+[2025-05-19T20:55:20.790Z] [WORKFLOW-074a914d-dcfe-4eae-b9d7-3e9f75d96c84] Starting workflow shelf-to-central with params: {"serviceType":"robot","operationType":"pickup","floorId":"4","shelfId":"115_load"}
+[2025-05-19T20:55:20.794Z] [WORKFLOW-074a914d-dcfe-4eae-b9d7-3e9f75d96c84] ✅ Cancelled any existing active missions
+[2025-05-19T20:55:20.794Z] [WORKFLOW-074a914d-dcfe-4eae-b9d7-3e9f75d96c84] Using generic shelf-to-central template with pickupShelf=115_load
+[2025-05-19T20:55:20.794Z] [WORKFLOW-074a914d-dcfe-4eae-b9d7-3e9f75d96c84] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T20:55:20.794Z] [WORKFLOW-074a914d-dcfe-4eae-b9d7-3e9f75d96c84] Processed point ID: {pickupShelf}_load_docking → 115_load_docking
+[2025-05-19T20:55:20.794Z] [WORKFLOW-074a914d-dcfe-4eae-b9d7-3e9f75d96c84] Getting coordinates for point: 115_load_docking
+[2025-05-19T20:55:20.795Z] [WORKFLOW-074a914d-dcfe-4eae-b9d7-3e9f75d96c84] Found coordinates for 115_load_docking: (-6.917, 6.721, 0)
+[2025-05-19T20:55:20.795Z] [WORKFLOW-074a914d-dcfe-4eae-b9d7-3e9f75d96c84] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T20:55:20.795Z] [WORKFLOW-074a914d-dcfe-4eae-b9d7-3e9f75d96c84] Processed point ID: {pickupShelf}_load → 115_load
+[2025-05-19T20:55:20.795Z] [WORKFLOW-074a914d-dcfe-4eae-b9d7-3e9f75d96c84] Getting shelf alignment coordinates for: 115_load
+[2025-05-19T20:55:20.795Z] [WORKFLOW-074a914d-dcfe-4eae-b9d7-3e9f75d96c84] Found shelf coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-19T20:55:20.796Z] [WORKFLOW-074a914d-dcfe-4eae-b9d7-3e9f75d96c84] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T20:55:20.796Z] [WORKFLOW-074a914d-dcfe-4eae-b9d7-3e9f75d96c84] Processed point ID: 001_load → 001_load
+[2025-05-19T20:55:20.796Z] [WORKFLOW-074a914d-dcfe-4eae-b9d7-3e9f75d96c84] Getting coordinates for point: 001_load
+[2025-05-19T20:55:20.796Z] [WORKFLOW-074a914d-dcfe-4eae-b9d7-3e9f75d96c84] Found coordinates for 001_load: (-1.85, 3.366, 0)
+[2025-05-19T20:55:20.802Z] [WORKFLOW-074a914d-dcfe-4eae-b9d7-3e9f75d96c84] ✅ Created shelf-to-central mission with ID: mission_1747688120796_uvxhx73 and 6 steps
+[2025-05-19T21:27:03.657Z] [WORKFLOW-89b546d3-df1f-4778-96a0-af5ad1d2e512] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"110_load"}
+[2025-05-19T21:27:03.659Z] [WORKFLOW-89b546d3-df1f-4778-96a0-af5ad1d2e512] ✅ Cancelled any existing active missions
+[2025-05-19T21:27:03.659Z] [WORKFLOW-89b546d3-df1f-4778-96a0-af5ad1d2e512] Using generic central-to-shelf template with dropoffShelf=110_load
+[2025-05-19T21:27:03.660Z] [WORKFLOW-89b546d3-df1f-4778-96a0-af5ad1d2e512] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T21:27:03.660Z] [WORKFLOW-89b546d3-df1f-4778-96a0-af5ad1d2e512] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T21:27:03.660Z] [WORKFLOW-89b546d3-df1f-4778-96a0-af5ad1d2e512] Getting coordinates for point: 050_load_docking
+[2025-05-19T21:27:03.660Z] [WORKFLOW-89b546d3-df1f-4778-96a0-af5ad1d2e512] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T21:27:03.660Z] [WORKFLOW-89b546d3-df1f-4778-96a0-af5ad1d2e512] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T21:27:03.660Z] [WORKFLOW-89b546d3-df1f-4778-96a0-af5ad1d2e512] Processed point ID: 050_load → 050_load
+[2025-05-19T21:27:03.660Z] [WORKFLOW-89b546d3-df1f-4778-96a0-af5ad1d2e512] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T21:27:03.661Z] [WORKFLOW-89b546d3-df1f-4778-96a0-af5ad1d2e512] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T21:27:03.661Z] [WORKFLOW-89b546d3-df1f-4778-96a0-af5ad1d2e512] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T21:27:03.661Z] [WORKFLOW-89b546d3-df1f-4778-96a0-af5ad1d2e512] Processed point ID: {dropoffShelf}_load → 110_load
+[2025-05-19T21:27:03.661Z] [WORKFLOW-89b546d3-df1f-4778-96a0-af5ad1d2e512] Getting coordinates for point: 110_load
+[2025-05-19T21:27:03.661Z] [WORKFLOW-89b546d3-df1f-4778-96a0-af5ad1d2e512] ❌ ERROR: Could not find coordinates for point 110_load
+[2025-05-19T21:27:03.661Z] [WORKFLOW-89b546d3-df1f-4778-96a0-af5ad1d2e512] ❌ Error creating central-to-shelf workflow: Could not find coordinates for point 110_load
+[2025-05-19T21:27:08.320Z] [WORKFLOW-0a302551-fd9c-4224-91ef-a1a23d109bb5] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-19T21:27:08.324Z] [WORKFLOW-0a302551-fd9c-4224-91ef-a1a23d109bb5] ✅ Cancelled any existing active missions
+[2025-05-19T21:27:08.324Z] [WORKFLOW-0a302551-fd9c-4224-91ef-a1a23d109bb5] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-19T21:27:08.324Z] [WORKFLOW-0a302551-fd9c-4224-91ef-a1a23d109bb5] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T21:27:08.324Z] [WORKFLOW-0a302551-fd9c-4224-91ef-a1a23d109bb5] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T21:27:08.324Z] [WORKFLOW-0a302551-fd9c-4224-91ef-a1a23d109bb5] Getting coordinates for point: 050_load_docking
+[2025-05-19T21:27:08.324Z] [WORKFLOW-0a302551-fd9c-4224-91ef-a1a23d109bb5] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T21:27:08.324Z] [WORKFLOW-0a302551-fd9c-4224-91ef-a1a23d109bb5] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T21:27:08.324Z] [WORKFLOW-0a302551-fd9c-4224-91ef-a1a23d109bb5] Processed point ID: 050_load → 050_load
+[2025-05-19T21:27:08.325Z] [WORKFLOW-0a302551-fd9c-4224-91ef-a1a23d109bb5] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T21:27:08.325Z] [WORKFLOW-0a302551-fd9c-4224-91ef-a1a23d109bb5] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T21:27:08.325Z] [WORKFLOW-0a302551-fd9c-4224-91ef-a1a23d109bb5] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T21:27:08.325Z] [WORKFLOW-0a302551-fd9c-4224-91ef-a1a23d109bb5] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-19T21:27:08.325Z] [WORKFLOW-0a302551-fd9c-4224-91ef-a1a23d109bb5] Getting coordinates for point: 115_load
+[2025-05-19T21:27:08.325Z] [WORKFLOW-0a302551-fd9c-4224-91ef-a1a23d109bb5] Found coordinates for 115_load: (-6.917, 6.721, 0)
+[2025-05-19T21:27:08.351Z] [WORKFLOW-0a302551-fd9c-4224-91ef-a1a23d109bb5] ✅ Created central-to-shelf mission with ID: mission_1747690028325_23sc518
+[2025-05-19T21:28:36.774Z] [WORKFLOW-fe3a7f33-f595-45dc-a79d-0ffe8070dfe6] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"110_load"}
+[2025-05-19T21:28:36.967Z] [WORKFLOW-fe3a7f33-f595-45dc-a79d-0ffe8070dfe6] ✅ Cancelled any existing active missions
+[2025-05-19T21:28:37.010Z] [WORKFLOW-fe3a7f33-f595-45dc-a79d-0ffe8070dfe6] Using generic central-to-shelf template with dropoffShelf=110_load
+[2025-05-19T21:28:37.017Z] [WORKFLOW-fe3a7f33-f595-45dc-a79d-0ffe8070dfe6] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T21:28:37.021Z] [WORKFLOW-fe3a7f33-f595-45dc-a79d-0ffe8070dfe6] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T21:28:37.021Z] [WORKFLOW-fe3a7f33-f595-45dc-a79d-0ffe8070dfe6] Getting coordinates for point: 050_load_docking
+[2025-05-19T21:28:37.029Z] [WORKFLOW-fe3a7f33-f595-45dc-a79d-0ffe8070dfe6] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T21:28:37.036Z] [WORKFLOW-fe3a7f33-f595-45dc-a79d-0ffe8070dfe6] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T21:28:37.043Z] [WORKFLOW-fe3a7f33-f595-45dc-a79d-0ffe8070dfe6] Processed point ID: 050_load → 050_load
+[2025-05-19T21:28:37.048Z] [WORKFLOW-fe3a7f33-f595-45dc-a79d-0ffe8070dfe6] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T21:28:37.053Z] [WORKFLOW-fe3a7f33-f595-45dc-a79d-0ffe8070dfe6] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T21:28:37.054Z] [WORKFLOW-fe3a7f33-f595-45dc-a79d-0ffe8070dfe6] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T21:28:37.054Z] [WORKFLOW-fe3a7f33-f595-45dc-a79d-0ffe8070dfe6] Processed point ID: {dropoffShelf}_load → 110_load
+[2025-05-19T21:28:37.054Z] [WORKFLOW-fe3a7f33-f595-45dc-a79d-0ffe8070dfe6] Getting unload point coordinates for: 110_load
+[2025-05-19T21:28:37.054Z] [WORKFLOW-fe3a7f33-f595-45dc-a79d-0ffe8070dfe6] ❌ ERROR: Could not find unload point coordinates for 110_load
+[2025-05-19T21:28:37.064Z] [WORKFLOW-fe3a7f33-f595-45dc-a79d-0ffe8070dfe6] ❌ Error creating central-to-shelf workflow: Could not find unload point coordinates for 110_load
+[2025-05-19T21:42:17.083Z] [WORKFLOW-f6a29eb3-ff86-4c5d-8e05-7c6b658b437f] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"110_load"}
+[2025-05-19T21:42:17.094Z] [WORKFLOW-f6a29eb3-ff86-4c5d-8e05-7c6b658b437f] ✅ Cancelled any existing active missions
+[2025-05-19T21:42:17.095Z] [WORKFLOW-f6a29eb3-ff86-4c5d-8e05-7c6b658b437f] Using generic central-to-shelf template with dropoffShelf=110_load
+[2025-05-19T21:42:17.095Z] [WORKFLOW-f6a29eb3-ff86-4c5d-8e05-7c6b658b437f] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T21:42:17.095Z] [WORKFLOW-f6a29eb3-ff86-4c5d-8e05-7c6b658b437f] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T21:42:17.096Z] [WORKFLOW-f6a29eb3-ff86-4c5d-8e05-7c6b658b437f] Getting coordinates for point: 050_load_docking
+[2025-05-19T21:42:17.096Z] [WORKFLOW-f6a29eb3-ff86-4c5d-8e05-7c6b658b437f] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T21:42:17.096Z] [WORKFLOW-f6a29eb3-ff86-4c5d-8e05-7c6b658b437f] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T21:42:17.097Z] [WORKFLOW-f6a29eb3-ff86-4c5d-8e05-7c6b658b437f] Processed point ID: 050_load → 050_load
+[2025-05-19T21:42:17.097Z] [WORKFLOW-f6a29eb3-ff86-4c5d-8e05-7c6b658b437f] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T21:42:17.098Z] [WORKFLOW-f6a29eb3-ff86-4c5d-8e05-7c6b658b437f] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T21:42:17.099Z] [WORKFLOW-f6a29eb3-ff86-4c5d-8e05-7c6b658b437f] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T21:42:17.099Z] [WORKFLOW-f6a29eb3-ff86-4c5d-8e05-7c6b658b437f] Processed point ID: {dropoffShelf}_load → 110_load
+[2025-05-19T21:42:17.099Z] [WORKFLOW-f6a29eb3-ff86-4c5d-8e05-7c6b658b437f] Getting unload point coordinates for: 110_load
+[2025-05-19T21:42:17.099Z] [WORKFLOW-f6a29eb3-ff86-4c5d-8e05-7c6b658b437f] Found unload point coordinates for 110_load: (-12.24, 6.736, 0)
+[2025-05-19T21:42:17.100Z] [WORKFLOW-f6a29eb3-ff86-4c5d-8e05-7c6b658b437f] CRITICAL FIX: Using full point ID "110_load" as rack_area_id instead of extracted prefix
+[2025-05-19T21:42:17.100Z] [WORKFLOW-f6a29eb3-ff86-4c5d-8e05-7c6b658b437f] This ensures consistent behavior with to-unload-point-action.ts implementation
+[2025-05-19T21:42:17.100Z] [WORKFLOW-f6a29eb3-ff86-4c5d-8e05-7c6b658b437f] FINAL rack_area_id = "110_load" for point "110_load"
+[2025-05-19T21:42:17.100Z] [WORKFLOW-f6a29eb3-ff86-4c5d-8e05-7c6b658b437f] ✅ Added to_unload_point step with rack_area_id=110_load
+[2025-05-19T21:42:17.130Z] [WORKFLOW-f6a29eb3-ff86-4c5d-8e05-7c6b658b437f] ✅ Created central-to-shelf mission with ID: mission_1747690937101_bnjguop
+[2025-05-19T21:53:22.084Z] [WORKFLOW-a2867d82-bd83-4ac0-bdbd-d5a76865a4b6] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"110_load"}
+[2025-05-19T21:53:22.087Z] [WORKFLOW-a2867d82-bd83-4ac0-bdbd-d5a76865a4b6] ✅ Cancelled any existing active missions
+[2025-05-19T21:53:22.087Z] [WORKFLOW-a2867d82-bd83-4ac0-bdbd-d5a76865a4b6] Using generic central-to-shelf template with dropoffShelf=110_load
+[2025-05-19T21:53:22.087Z] [WORKFLOW-a2867d82-bd83-4ac0-bdbd-d5a76865a4b6] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T21:53:22.087Z] [WORKFLOW-a2867d82-bd83-4ac0-bdbd-d5a76865a4b6] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T21:53:22.087Z] [WORKFLOW-a2867d82-bd83-4ac0-bdbd-d5a76865a4b6] Getting coordinates for point: 050_load_docking
+[2025-05-19T21:53:22.088Z] [WORKFLOW-a2867d82-bd83-4ac0-bdbd-d5a76865a4b6] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T21:53:22.088Z] [WORKFLOW-a2867d82-bd83-4ac0-bdbd-d5a76865a4b6] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T21:53:22.088Z] [WORKFLOW-a2867d82-bd83-4ac0-bdbd-d5a76865a4b6] Processed point ID: 050_load → 050_load
+[2025-05-19T21:53:22.088Z] [WORKFLOW-a2867d82-bd83-4ac0-bdbd-d5a76865a4b6] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T21:53:22.088Z] [WORKFLOW-a2867d82-bd83-4ac0-bdbd-d5a76865a4b6] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T21:53:22.089Z] [WORKFLOW-a2867d82-bd83-4ac0-bdbd-d5a76865a4b6] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T21:53:22.089Z] [WORKFLOW-a2867d82-bd83-4ac0-bdbd-d5a76865a4b6] Processed point ID: {dropoffShelf}_load → 110_load
+[2025-05-19T21:53:22.089Z] [WORKFLOW-a2867d82-bd83-4ac0-bdbd-d5a76865a4b6] Getting unload point coordinates for: 110_load
+[2025-05-19T21:53:22.089Z] [WORKFLOW-a2867d82-bd83-4ac0-bdbd-d5a76865a4b6] Found unload point coordinates for 110_load: (-12.24, 6.736, 0)
+[2025-05-19T21:53:22.089Z] [WORKFLOW-a2867d82-bd83-4ac0-bdbd-d5a76865a4b6] CRITICAL FIX: Using full point ID "110_load" as rack_area_id instead of extracted prefix
+[2025-05-19T21:53:22.089Z] [WORKFLOW-a2867d82-bd83-4ac0-bdbd-d5a76865a4b6] This ensures consistent behavior with to-unload-point-action.ts implementation
+[2025-05-19T21:53:22.089Z] [WORKFLOW-a2867d82-bd83-4ac0-bdbd-d5a76865a4b6] FINAL rack_area_id = "110_load" for point "110_load"
+[2025-05-19T21:53:22.089Z] [WORKFLOW-a2867d82-bd83-4ac0-bdbd-d5a76865a4b6] ✅ Added to_unload_point step with rack_area_id=110_load
+[2025-05-19T21:53:22.159Z] [WORKFLOW-a2867d82-bd83-4ac0-bdbd-d5a76865a4b6] ✅ Created central-to-shelf mission with ID: mission_1747691602090_1g1rbfx
+[2025-05-19T21:58:22.910Z] [WORKFLOW-f2531da0-0a44-4c84-91ea-d3456a6e5c40] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"110_load"}
+[2025-05-19T21:58:22.917Z] [WORKFLOW-f2531da0-0a44-4c84-91ea-d3456a6e5c40] ✅ Cancelled any existing active missions
+[2025-05-19T21:58:22.917Z] [WORKFLOW-f2531da0-0a44-4c84-91ea-d3456a6e5c40] Using generic central-to-shelf template with dropoffShelf=110_load
+[2025-05-19T21:58:22.918Z] [WORKFLOW-f2531da0-0a44-4c84-91ea-d3456a6e5c40] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T21:58:22.918Z] [WORKFLOW-f2531da0-0a44-4c84-91ea-d3456a6e5c40] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T21:58:22.918Z] [WORKFLOW-f2531da0-0a44-4c84-91ea-d3456a6e5c40] Getting coordinates for point: 050_load_docking
+[2025-05-19T21:58:22.918Z] [WORKFLOW-f2531da0-0a44-4c84-91ea-d3456a6e5c40] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T21:58:22.918Z] [WORKFLOW-f2531da0-0a44-4c84-91ea-d3456a6e5c40] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T21:58:22.918Z] [WORKFLOW-f2531da0-0a44-4c84-91ea-d3456a6e5c40] Processed point ID: 050_load → 050_load
+[2025-05-19T21:58:22.918Z] [WORKFLOW-f2531da0-0a44-4c84-91ea-d3456a6e5c40] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T21:58:22.919Z] [WORKFLOW-f2531da0-0a44-4c84-91ea-d3456a6e5c40] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T21:58:22.919Z] [WORKFLOW-f2531da0-0a44-4c84-91ea-d3456a6e5c40] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T21:58:22.919Z] [WORKFLOW-f2531da0-0a44-4c84-91ea-d3456a6e5c40] Processed point ID: {dropoffShelf}_load → 110_load
+[2025-05-19T21:58:22.919Z] [WORKFLOW-f2531da0-0a44-4c84-91ea-d3456a6e5c40] Getting unload point coordinates for: 110_load
+[2025-05-19T21:58:22.919Z] [WORKFLOW-f2531da0-0a44-4c84-91ea-d3456a6e5c40] Found unload point coordinates for 110_load: (-12.24, 6.736, 0)
+[2025-05-19T21:58:22.919Z] [WORKFLOW-f2531da0-0a44-4c84-91ea-d3456a6e5c40] CRITICAL FIX: Using full point ID "110_load" as rack_area_id instead of extracted prefix
+[2025-05-19T21:58:22.919Z] [WORKFLOW-f2531da0-0a44-4c84-91ea-d3456a6e5c40] This ensures consistent behavior with to-unload-point-action.ts implementation
+[2025-05-19T21:58:22.919Z] [WORKFLOW-f2531da0-0a44-4c84-91ea-d3456a6e5c40] FINAL rack_area_id = "110_load" for point "110_load"
+[2025-05-19T21:58:22.920Z] [WORKFLOW-f2531da0-0a44-4c84-91ea-d3456a6e5c40] ✅ Added to_unload_point step with rack_area_id=110_load
+[2025-05-19T21:58:22.922Z] [WORKFLOW-f2531da0-0a44-4c84-91ea-d3456a6e5c40] ✅ Created central-to-shelf mission with ID: mission_1747691902920_4vviovn
+[2025-05-19T22:01:22.514Z] [WORKFLOW-348ec5f5-c924-46bb-ac48-da4761754d5b] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"110_load"}
+[2025-05-19T22:01:22.521Z] [WORKFLOW-348ec5f5-c924-46bb-ac48-da4761754d5b] ✅ Cancelled any existing active missions
+[2025-05-19T22:01:22.522Z] [WORKFLOW-348ec5f5-c924-46bb-ac48-da4761754d5b] Using generic central-to-shelf template with dropoffShelf=110_load
+[2025-05-19T22:01:22.522Z] [WORKFLOW-348ec5f5-c924-46bb-ac48-da4761754d5b] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T22:01:22.522Z] [WORKFLOW-348ec5f5-c924-46bb-ac48-da4761754d5b] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T22:01:22.522Z] [WORKFLOW-348ec5f5-c924-46bb-ac48-da4761754d5b] Getting coordinates for point: 050_load_docking
+[2025-05-19T22:01:22.523Z] [WORKFLOW-348ec5f5-c924-46bb-ac48-da4761754d5b] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T22:01:22.523Z] [WORKFLOW-348ec5f5-c924-46bb-ac48-da4761754d5b] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T22:01:22.523Z] [WORKFLOW-348ec5f5-c924-46bb-ac48-da4761754d5b] Processed point ID: 050_load → 050_load
+[2025-05-19T22:01:22.523Z] [WORKFLOW-348ec5f5-c924-46bb-ac48-da4761754d5b] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T22:01:22.524Z] [WORKFLOW-348ec5f5-c924-46bb-ac48-da4761754d5b] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T22:01:22.524Z] [WORKFLOW-348ec5f5-c924-46bb-ac48-da4761754d5b] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T22:01:22.524Z] [WORKFLOW-348ec5f5-c924-46bb-ac48-da4761754d5b] Processed point ID: {dropoffShelf}_load → 110_load
+[2025-05-19T22:01:22.524Z] [WORKFLOW-348ec5f5-c924-46bb-ac48-da4761754d5b] Getting unload point coordinates for: 110_load
+[2025-05-19T22:01:22.524Z] [WORKFLOW-348ec5f5-c924-46bb-ac48-da4761754d5b] Found unload point coordinates for 110_load: (-12.24, 6.736, 0)
+[2025-05-19T22:01:22.524Z] [WORKFLOW-348ec5f5-c924-46bb-ac48-da4761754d5b] CRITICAL FIX: Using full point ID "110_load" as rack_area_id instead of extracted prefix
+[2025-05-19T22:01:22.524Z] [WORKFLOW-348ec5f5-c924-46bb-ac48-da4761754d5b] This ensures consistent behavior with to-unload-point-action.ts implementation
+[2025-05-19T22:01:22.525Z] [WORKFLOW-348ec5f5-c924-46bb-ac48-da4761754d5b] FINAL rack_area_id = "110_load" for point "110_load"
+[2025-05-19T22:01:22.525Z] [WORKFLOW-348ec5f5-c924-46bb-ac48-da4761754d5b] ✅ Added to_unload_point step with rack_area_id=110_load
+[2025-05-19T22:01:22.527Z] [WORKFLOW-348ec5f5-c924-46bb-ac48-da4761754d5b] ✅ Created central-to-shelf mission with ID: mission_1747692082525_vajz38u
+[2025-05-19T22:04:10.132Z] [WORKFLOW-444f78a3-8021-47a9-a3be-ff5e90589547] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"110_load"}
+[2025-05-19T22:04:10.136Z] [WORKFLOW-444f78a3-8021-47a9-a3be-ff5e90589547] ✅ Cancelled any existing active missions
+[2025-05-19T22:04:10.136Z] [WORKFLOW-444f78a3-8021-47a9-a3be-ff5e90589547] Using generic central-to-shelf template with dropoffShelf=110_load
+[2025-05-19T22:04:10.136Z] [WORKFLOW-444f78a3-8021-47a9-a3be-ff5e90589547] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T22:04:10.137Z] [WORKFLOW-444f78a3-8021-47a9-a3be-ff5e90589547] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T22:04:10.137Z] [WORKFLOW-444f78a3-8021-47a9-a3be-ff5e90589547] Getting coordinates for point: 050_load_docking
+[2025-05-19T22:04:10.137Z] [WORKFLOW-444f78a3-8021-47a9-a3be-ff5e90589547] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T22:04:10.138Z] [WORKFLOW-444f78a3-8021-47a9-a3be-ff5e90589547] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T22:04:10.138Z] [WORKFLOW-444f78a3-8021-47a9-a3be-ff5e90589547] Processed point ID: 050_load → 050_load
+[2025-05-19T22:04:10.138Z] [WORKFLOW-444f78a3-8021-47a9-a3be-ff5e90589547] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T22:04:10.139Z] [WORKFLOW-444f78a3-8021-47a9-a3be-ff5e90589547] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T22:04:10.139Z] [WORKFLOW-444f78a3-8021-47a9-a3be-ff5e90589547] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T22:04:10.139Z] [WORKFLOW-444f78a3-8021-47a9-a3be-ff5e90589547] Processed point ID: {dropoffShelf}_load → 110_load
+[2025-05-19T22:04:10.139Z] [WORKFLOW-444f78a3-8021-47a9-a3be-ff5e90589547] Getting coordinates for point: 110_load
+[2025-05-19T22:04:10.140Z] [WORKFLOW-444f78a3-8021-47a9-a3be-ff5e90589547] ❌ ERROR: Could not find coordinates for point 110_load
+[2025-05-19T22:04:10.140Z] [WORKFLOW-444f78a3-8021-47a9-a3be-ff5e90589547] ❌ Error creating central-to-shelf workflow: Could not find coordinates for point 110_load
+[2025-05-19T22:04:13.110Z] [WORKFLOW-c1b1f9f3-bd84-4d96-a91c-d00d0d28df12] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-19T22:04:13.116Z] [WORKFLOW-c1b1f9f3-bd84-4d96-a91c-d00d0d28df12] ✅ Cancelled any existing active missions
+[2025-05-19T22:04:13.117Z] [WORKFLOW-c1b1f9f3-bd84-4d96-a91c-d00d0d28df12] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-19T22:04:13.117Z] [WORKFLOW-c1b1f9f3-bd84-4d96-a91c-d00d0d28df12] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:04:13.117Z] [WORKFLOW-c1b1f9f3-bd84-4d96-a91c-d00d0d28df12] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T22:04:13.117Z] [WORKFLOW-c1b1f9f3-bd84-4d96-a91c-d00d0d28df12] Getting coordinates for point: 050_load_docking
+[2025-05-19T22:04:13.118Z] [WORKFLOW-c1b1f9f3-bd84-4d96-a91c-d00d0d28df12] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T22:04:13.118Z] [WORKFLOW-c1b1f9f3-bd84-4d96-a91c-d00d0d28df12] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:04:13.118Z] [WORKFLOW-c1b1f9f3-bd84-4d96-a91c-d00d0d28df12] Processed point ID: 050_load → 050_load
+[2025-05-19T22:04:13.118Z] [WORKFLOW-c1b1f9f3-bd84-4d96-a91c-d00d0d28df12] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T22:04:13.119Z] [WORKFLOW-c1b1f9f3-bd84-4d96-a91c-d00d0d28df12] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T22:04:13.119Z] [WORKFLOW-c1b1f9f3-bd84-4d96-a91c-d00d0d28df12] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:04:13.119Z] [WORKFLOW-c1b1f9f3-bd84-4d96-a91c-d00d0d28df12] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-19T22:04:13.119Z] [WORKFLOW-c1b1f9f3-bd84-4d96-a91c-d00d0d28df12] Getting coordinates for point: 115_load
+[2025-05-19T22:04:13.119Z] [WORKFLOW-c1b1f9f3-bd84-4d96-a91c-d00d0d28df12] Found coordinates for 115_load: (-6.917, 6.721, 0)
+[2025-05-19T22:04:13.146Z] [WORKFLOW-c1b1f9f3-bd84-4d96-a91c-d00d0d28df12] ✅ Created central-to-shelf mission with ID: mission_1747692253121_tt23l93
+[2025-05-19T22:05:31.710Z] [WORKFLOW-9816c427-4cd3-405a-a173-952b1d258913] Starting workflow execute with params: {"serviceType":"robot","operationType":"pickup","floorId":"3","shelfId":"104"}
+[2025-05-19T22:05:31.725Z] [WORKFLOW-9816c427-4cd3-405a-a173-952b1d258913] ✅ Cancelled any existing active missions
+[2025-05-19T22:06:20.026Z] [WORKFLOW-d292dcef-4444-4741-bf49-5c39dfed0b93] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-19T22:06:20.032Z] [WORKFLOW-d292dcef-4444-4741-bf49-5c39dfed0b93] ✅ Cancelled any existing active missions
+[2025-05-19T22:06:20.033Z] [WORKFLOW-d292dcef-4444-4741-bf49-5c39dfed0b93] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-19T22:06:20.033Z] [WORKFLOW-d292dcef-4444-4741-bf49-5c39dfed0b93] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:06:20.033Z] [WORKFLOW-d292dcef-4444-4741-bf49-5c39dfed0b93] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T22:06:20.033Z] [WORKFLOW-d292dcef-4444-4741-bf49-5c39dfed0b93] Getting coordinates for point: 050_load_docking
+[2025-05-19T22:06:20.034Z] [WORKFLOW-d292dcef-4444-4741-bf49-5c39dfed0b93] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T22:06:20.034Z] [WORKFLOW-d292dcef-4444-4741-bf49-5c39dfed0b93] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:06:20.034Z] [WORKFLOW-d292dcef-4444-4741-bf49-5c39dfed0b93] Processed point ID: 050_load → 050_load
+[2025-05-19T22:06:20.034Z] [WORKFLOW-d292dcef-4444-4741-bf49-5c39dfed0b93] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T22:06:20.035Z] [WORKFLOW-d292dcef-4444-4741-bf49-5c39dfed0b93] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T22:06:20.035Z] [WORKFLOW-d292dcef-4444-4741-bf49-5c39dfed0b93] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:06:20.035Z] [WORKFLOW-d292dcef-4444-4741-bf49-5c39dfed0b93] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-19T22:06:20.036Z] [WORKFLOW-d292dcef-4444-4741-bf49-5c39dfed0b93] Getting coordinates for point: 115_load
+[2025-05-19T22:06:20.036Z] [WORKFLOW-d292dcef-4444-4741-bf49-5c39dfed0b93] Found coordinates for 115_load: (-6.917, 6.721, 0)
+[2025-05-19T22:06:20.043Z] [WORKFLOW-d292dcef-4444-4741-bf49-5c39dfed0b93] ✅ Created central-to-shelf mission with ID: mission_1747692380036_0ck4hwt
+[2025-05-19T22:13:07.576Z] [WORKFLOW-d1545351-f7ae-4ee3-8de0-14222cb5dabb] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-19T22:13:07.582Z] [WORKFLOW-d1545351-f7ae-4ee3-8de0-14222cb5dabb] ✅ Cancelled any existing active missions
+[2025-05-19T22:13:07.582Z] [WORKFLOW-d1545351-f7ae-4ee3-8de0-14222cb5dabb] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-19T22:13:07.583Z] [WORKFLOW-d1545351-f7ae-4ee3-8de0-14222cb5dabb] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:13:07.583Z] [WORKFLOW-d1545351-f7ae-4ee3-8de0-14222cb5dabb] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T22:13:07.583Z] [WORKFLOW-d1545351-f7ae-4ee3-8de0-14222cb5dabb] Getting coordinates for point: 050_load_docking
+[2025-05-19T22:13:07.583Z] [WORKFLOW-d1545351-f7ae-4ee3-8de0-14222cb5dabb] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T22:13:07.584Z] [WORKFLOW-d1545351-f7ae-4ee3-8de0-14222cb5dabb] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:13:07.584Z] [WORKFLOW-d1545351-f7ae-4ee3-8de0-14222cb5dabb] Processed point ID: 050_load → 050_load
+[2025-05-19T22:13:07.584Z] [WORKFLOW-d1545351-f7ae-4ee3-8de0-14222cb5dabb] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T22:13:07.585Z] [WORKFLOW-d1545351-f7ae-4ee3-8de0-14222cb5dabb] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T22:13:07.585Z] [WORKFLOW-d1545351-f7ae-4ee3-8de0-14222cb5dabb] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:13:07.585Z] [WORKFLOW-d1545351-f7ae-4ee3-8de0-14222cb5dabb] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-19T22:13:07.585Z] [WORKFLOW-d1545351-f7ae-4ee3-8de0-14222cb5dabb] Getting coordinates for point: 115_load
+[2025-05-19T22:13:07.586Z] [WORKFLOW-d1545351-f7ae-4ee3-8de0-14222cb5dabb] Found coordinates for 115_load: (-6.917, 6.721, 0)
+[2025-05-19T22:13:07.593Z] [WORKFLOW-d1545351-f7ae-4ee3-8de0-14222cb5dabb] ✅ Created central-to-shelf mission with ID: mission_1747692787586_z9azm19
+[2025-05-19T22:28:32.914Z] [WORKFLOW-a4bf8f36-e3b7-4ce9-a6fd-28b42aafed6a] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-19T22:28:32.917Z] [WORKFLOW-a4bf8f36-e3b7-4ce9-a6fd-28b42aafed6a] ✅ Cancelled any existing active missions
+[2025-05-19T22:28:32.917Z] [WORKFLOW-a4bf8f36-e3b7-4ce9-a6fd-28b42aafed6a] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-19T22:28:32.918Z] [WORKFLOW-a4bf8f36-e3b7-4ce9-a6fd-28b42aafed6a] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:28:32.918Z] [WORKFLOW-a4bf8f36-e3b7-4ce9-a6fd-28b42aafed6a] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T22:28:32.918Z] [WORKFLOW-a4bf8f36-e3b7-4ce9-a6fd-28b42aafed6a] Getting coordinates for point: 050_load_docking
+[2025-05-19T22:28:32.918Z] [WORKFLOW-a4bf8f36-e3b7-4ce9-a6fd-28b42aafed6a] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T22:28:32.919Z] [WORKFLOW-a4bf8f36-e3b7-4ce9-a6fd-28b42aafed6a] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:28:32.919Z] [WORKFLOW-a4bf8f36-e3b7-4ce9-a6fd-28b42aafed6a] Processed point ID: 050_load → 050_load
+[2025-05-19T22:28:32.919Z] [WORKFLOW-a4bf8f36-e3b7-4ce9-a6fd-28b42aafed6a] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T22:28:32.919Z] [WORKFLOW-a4bf8f36-e3b7-4ce9-a6fd-28b42aafed6a] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T22:28:32.919Z] [WORKFLOW-a4bf8f36-e3b7-4ce9-a6fd-28b42aafed6a] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:28:32.919Z] [WORKFLOW-a4bf8f36-e3b7-4ce9-a6fd-28b42aafed6a] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-19T22:28:32.919Z] [WORKFLOW-a4bf8f36-e3b7-4ce9-a6fd-28b42aafed6a] Getting coordinates for point: 115_load
+[2025-05-19T22:28:32.920Z] [WORKFLOW-a4bf8f36-e3b7-4ce9-a6fd-28b42aafed6a] Found coordinates for 115_load: (-6.917, 6.721, 0)
+[2025-05-19T22:28:32.954Z] [WORKFLOW-a4bf8f36-e3b7-4ce9-a6fd-28b42aafed6a] ✅ Created central-to-shelf mission with ID: mission_1747693712920_wfk8vs6
+[2025-05-19T22:36:56.470Z] [WORKFLOW-02a98787-8310-4fa8-84dd-c87bd0d595d9] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-19T22:36:56.480Z] [WORKFLOW-02a98787-8310-4fa8-84dd-c87bd0d595d9] ✅ Cancelled any existing active missions
+[2025-05-19T22:36:56.480Z] [WORKFLOW-02a98787-8310-4fa8-84dd-c87bd0d595d9] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-19T22:36:56.480Z] [WORKFLOW-02a98787-8310-4fa8-84dd-c87bd0d595d9] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:36:56.480Z] [WORKFLOW-02a98787-8310-4fa8-84dd-c87bd0d595d9] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T22:36:56.481Z] [WORKFLOW-02a98787-8310-4fa8-84dd-c87bd0d595d9] Getting coordinates for point: 050_load_docking
+[2025-05-19T22:36:56.481Z] [WORKFLOW-02a98787-8310-4fa8-84dd-c87bd0d595d9] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T22:36:56.481Z] [WORKFLOW-02a98787-8310-4fa8-84dd-c87bd0d595d9] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:36:56.481Z] [WORKFLOW-02a98787-8310-4fa8-84dd-c87bd0d595d9] Processed point ID: 050_load → 050_load
+[2025-05-19T22:36:56.482Z] [WORKFLOW-02a98787-8310-4fa8-84dd-c87bd0d595d9] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T22:36:56.482Z] [WORKFLOW-02a98787-8310-4fa8-84dd-c87bd0d595d9] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T22:36:56.482Z] [WORKFLOW-02a98787-8310-4fa8-84dd-c87bd0d595d9] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:36:56.482Z] [WORKFLOW-02a98787-8310-4fa8-84dd-c87bd0d595d9] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-19T22:36:56.483Z] [WORKFLOW-02a98787-8310-4fa8-84dd-c87bd0d595d9] Getting coordinates for point: 115_load
+[2025-05-19T22:36:56.483Z] [WORKFLOW-02a98787-8310-4fa8-84dd-c87bd0d595d9] Found coordinates for 115_load: (-6.917, 6.721, 0)
+[2025-05-19T22:36:56.501Z] [WORKFLOW-02a98787-8310-4fa8-84dd-c87bd0d595d9] ✅ Created central-to-shelf mission with ID: mission_1747694216483_k4zk5nf
+[2025-05-19T22:38:11.199Z] [WORKFLOW-854be9e8-7fb9-48ae-a3d0-96a9e0270798] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-19T22:38:11.203Z] [WORKFLOW-854be9e8-7fb9-48ae-a3d0-96a9e0270798] ✅ Cancelled any existing active missions
+[2025-05-19T22:38:11.203Z] [WORKFLOW-854be9e8-7fb9-48ae-a3d0-96a9e0270798] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-19T22:38:11.203Z] [WORKFLOW-854be9e8-7fb9-48ae-a3d0-96a9e0270798] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:38:11.203Z] [WORKFLOW-854be9e8-7fb9-48ae-a3d0-96a9e0270798] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T22:38:11.203Z] [WORKFLOW-854be9e8-7fb9-48ae-a3d0-96a9e0270798] Getting coordinates for point: 050_load_docking
+[2025-05-19T22:38:11.204Z] [WORKFLOW-854be9e8-7fb9-48ae-a3d0-96a9e0270798] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T22:38:11.204Z] [WORKFLOW-854be9e8-7fb9-48ae-a3d0-96a9e0270798] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:38:11.204Z] [WORKFLOW-854be9e8-7fb9-48ae-a3d0-96a9e0270798] Processed point ID: 050_load → 050_load
+[2025-05-19T22:38:11.204Z] [WORKFLOW-854be9e8-7fb9-48ae-a3d0-96a9e0270798] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T22:38:11.204Z] [WORKFLOW-854be9e8-7fb9-48ae-a3d0-96a9e0270798] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T22:38:11.204Z] [WORKFLOW-854be9e8-7fb9-48ae-a3d0-96a9e0270798] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:38:11.204Z] [WORKFLOW-854be9e8-7fb9-48ae-a3d0-96a9e0270798] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-19T22:38:11.204Z] [WORKFLOW-854be9e8-7fb9-48ae-a3d0-96a9e0270798] Getting coordinates for point: 115_load
+[2025-05-19T22:38:11.205Z] [WORKFLOW-854be9e8-7fb9-48ae-a3d0-96a9e0270798] Found coordinates for 115_load: (-6.917, 6.721, 0)
+[2025-05-19T22:38:11.227Z] [WORKFLOW-854be9e8-7fb9-48ae-a3d0-96a9e0270798] ✅ Created central-to-shelf mission with ID: mission_1747694291205_7r7fjdf
+[2025-05-19T22:38:55.851Z] [WORKFLOW-9171305d-0e8e-4ad2-a659-5d990543cae1] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"110_load"}
+[2025-05-19T22:38:55.854Z] [WORKFLOW-9171305d-0e8e-4ad2-a659-5d990543cae1] ✅ Cancelled any existing active missions
+[2025-05-19T22:38:55.854Z] [WORKFLOW-9171305d-0e8e-4ad2-a659-5d990543cae1] Using generic central-to-shelf template with dropoffShelf=110_load
+[2025-05-19T22:38:55.854Z] [WORKFLOW-9171305d-0e8e-4ad2-a659-5d990543cae1] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T22:38:55.854Z] [WORKFLOW-9171305d-0e8e-4ad2-a659-5d990543cae1] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T22:38:55.855Z] [WORKFLOW-9171305d-0e8e-4ad2-a659-5d990543cae1] Getting coordinates for point: 050_load_docking
+[2025-05-19T22:38:55.855Z] [WORKFLOW-9171305d-0e8e-4ad2-a659-5d990543cae1] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T22:38:55.855Z] [WORKFLOW-9171305d-0e8e-4ad2-a659-5d990543cae1] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T22:38:55.855Z] [WORKFLOW-9171305d-0e8e-4ad2-a659-5d990543cae1] Processed point ID: 050_load → 050_load
+[2025-05-19T22:38:55.855Z] [WORKFLOW-9171305d-0e8e-4ad2-a659-5d990543cae1] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T22:38:55.856Z] [WORKFLOW-9171305d-0e8e-4ad2-a659-5d990543cae1] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T22:38:55.856Z] [WORKFLOW-9171305d-0e8e-4ad2-a659-5d990543cae1] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T22:38:55.856Z] [WORKFLOW-9171305d-0e8e-4ad2-a659-5d990543cae1] Processed point ID: {dropoffShelf}_load → 110_load
+[2025-05-19T22:38:55.856Z] [WORKFLOW-9171305d-0e8e-4ad2-a659-5d990543cae1] Getting coordinates for point: 110_load
+[2025-05-19T22:38:55.856Z] [WORKFLOW-9171305d-0e8e-4ad2-a659-5d990543cae1] ❌ ERROR: Could not find coordinates for point 110_load
+[2025-05-19T22:38:55.857Z] [WORKFLOW-9171305d-0e8e-4ad2-a659-5d990543cae1] ❌ Error creating central-to-shelf workflow: Could not find coordinates for point 110_load
+[2025-05-19T22:38:58.493Z] [WORKFLOW-2fe952df-2a04-42e6-866c-1e9d49e80973] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-19T22:38:58.495Z] [WORKFLOW-2fe952df-2a04-42e6-866c-1e9d49e80973] ✅ Cancelled any existing active missions
+[2025-05-19T22:38:58.495Z] [WORKFLOW-2fe952df-2a04-42e6-866c-1e9d49e80973] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-19T22:38:58.496Z] [WORKFLOW-2fe952df-2a04-42e6-866c-1e9d49e80973] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:38:58.496Z] [WORKFLOW-2fe952df-2a04-42e6-866c-1e9d49e80973] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T22:38:58.496Z] [WORKFLOW-2fe952df-2a04-42e6-866c-1e9d49e80973] Getting coordinates for point: 050_load_docking
+[2025-05-19T22:38:58.496Z] [WORKFLOW-2fe952df-2a04-42e6-866c-1e9d49e80973] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T22:38:58.496Z] [WORKFLOW-2fe952df-2a04-42e6-866c-1e9d49e80973] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:38:58.496Z] [WORKFLOW-2fe952df-2a04-42e6-866c-1e9d49e80973] Processed point ID: 050_load → 050_load
+[2025-05-19T22:38:58.497Z] [WORKFLOW-2fe952df-2a04-42e6-866c-1e9d49e80973] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T22:38:58.497Z] [WORKFLOW-2fe952df-2a04-42e6-866c-1e9d49e80973] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T22:38:58.497Z] [WORKFLOW-2fe952df-2a04-42e6-866c-1e9d49e80973] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:38:58.497Z] [WORKFLOW-2fe952df-2a04-42e6-866c-1e9d49e80973] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-19T22:38:58.497Z] [WORKFLOW-2fe952df-2a04-42e6-866c-1e9d49e80973] Getting coordinates for point: 115_load
+[2025-05-19T22:38:58.498Z] [WORKFLOW-2fe952df-2a04-42e6-866c-1e9d49e80973] Found coordinates for 115_load: (-6.917, 6.721, 0)
+[2025-05-19T22:38:58.508Z] [WORKFLOW-2fe952df-2a04-42e6-866c-1e9d49e80973] ✅ Created central-to-shelf mission with ID: mission_1747694338498_ze1iyg3
+[2025-05-19T22:39:13.998Z] [WORKFLOW-d6151079-3f6e-45e2-898a-b23daaa9cdb4] Starting workflow shelf-to-central with params: {"serviceType":"robot","operationType":"pickup","floorId":"4","shelfId":"110_load"}
+[2025-05-19T22:39:14.000Z] [WORKFLOW-d6151079-3f6e-45e2-898a-b23daaa9cdb4] ✅ Cancelled any existing active missions
+[2025-05-19T22:39:14.000Z] [WORKFLOW-d6151079-3f6e-45e2-898a-b23daaa9cdb4] Using generic shelf-to-central template with pickupShelf=110_load
+[2025-05-19T22:39:14.001Z] [WORKFLOW-d6151079-3f6e-45e2-898a-b23daaa9cdb4] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T22:39:14.001Z] [WORKFLOW-d6151079-3f6e-45e2-898a-b23daaa9cdb4] Processed point ID: {pickupShelf}_load_docking → 110_load_docking
+[2025-05-19T22:39:14.001Z] [WORKFLOW-d6151079-3f6e-45e2-898a-b23daaa9cdb4] Getting coordinates for point: 110_load_docking
+[2025-05-19T22:39:14.001Z] [WORKFLOW-d6151079-3f6e-45e2-898a-b23daaa9cdb4] ❌ ERROR: Could not find coordinates for point 110_load_docking
+[2025-05-19T22:39:14.003Z] [WORKFLOW-d6151079-3f6e-45e2-898a-b23daaa9cdb4] ❌ Error creating shelf-to-central workflow: Could not find coordinates for point 110_load_docking
+[2025-05-19T22:39:15.647Z] [WORKFLOW-2b4301b2-1738-4157-ba15-03e73e373e1a] Starting workflow shelf-to-central with params: {"serviceType":"robot","operationType":"pickup","floorId":"4","shelfId":"115_load"}
+[2025-05-19T22:39:15.650Z] [WORKFLOW-2b4301b2-1738-4157-ba15-03e73e373e1a] ✅ Cancelled any existing active missions
+[2025-05-19T22:39:15.650Z] [WORKFLOW-2b4301b2-1738-4157-ba15-03e73e373e1a] Using generic shelf-to-central template with pickupShelf=115_load
+[2025-05-19T22:39:15.650Z] [WORKFLOW-2b4301b2-1738-4157-ba15-03e73e373e1a] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:39:15.650Z] [WORKFLOW-2b4301b2-1738-4157-ba15-03e73e373e1a] Processed point ID: {pickupShelf}_load_docking → 115_load_docking
+[2025-05-19T22:39:15.650Z] [WORKFLOW-2b4301b2-1738-4157-ba15-03e73e373e1a] Getting coordinates for point: 115_load_docking
+[2025-05-19T22:39:15.650Z] [WORKFLOW-2b4301b2-1738-4157-ba15-03e73e373e1a] Found coordinates for 115_load_docking: (-6.917, 6.721, 0)
+[2025-05-19T22:39:15.651Z] [WORKFLOW-2b4301b2-1738-4157-ba15-03e73e373e1a] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:39:15.651Z] [WORKFLOW-2b4301b2-1738-4157-ba15-03e73e373e1a] Processed point ID: {pickupShelf}_load → 115_load
+[2025-05-19T22:39:15.651Z] [WORKFLOW-2b4301b2-1738-4157-ba15-03e73e373e1a] Getting shelf alignment coordinates for: 115_load
+[2025-05-19T22:39:15.651Z] [WORKFLOW-2b4301b2-1738-4157-ba15-03e73e373e1a] Found shelf coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-19T22:39:15.651Z] [WORKFLOW-2b4301b2-1738-4157-ba15-03e73e373e1a] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:39:15.651Z] [WORKFLOW-2b4301b2-1738-4157-ba15-03e73e373e1a] Processed point ID: 001_load → 001_load
+[2025-05-19T22:39:15.651Z] [WORKFLOW-2b4301b2-1738-4157-ba15-03e73e373e1a] Getting coordinates for point: 001_load
+[2025-05-19T22:39:15.651Z] [WORKFLOW-2b4301b2-1738-4157-ba15-03e73e373e1a] Found coordinates for 001_load: (-1.85, 3.366, 0)
+[2025-05-19T22:39:15.667Z] [WORKFLOW-2b4301b2-1738-4157-ba15-03e73e373e1a] ✅ Created shelf-to-central mission with ID: mission_1747694355652_5wsbezi and 6 steps
+[2025-05-19T22:55:58.268Z] [WORKFLOW-ce2dcb0e-33a5-4673-a239-fdafb4fcb2d8] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-19T22:55:58.273Z] [WORKFLOW-ce2dcb0e-33a5-4673-a239-fdafb4fcb2d8] ✅ Cancelled any existing active missions
+[2025-05-19T22:55:58.274Z] [WORKFLOW-ce2dcb0e-33a5-4673-a239-fdafb4fcb2d8] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-19T22:55:58.274Z] [WORKFLOW-ce2dcb0e-33a5-4673-a239-fdafb4fcb2d8] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:55:58.274Z] [WORKFLOW-ce2dcb0e-33a5-4673-a239-fdafb4fcb2d8] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T22:55:58.275Z] [WORKFLOW-ce2dcb0e-33a5-4673-a239-fdafb4fcb2d8] Getting coordinates for point: 050_load_docking
+[2025-05-19T22:55:58.275Z] [WORKFLOW-ce2dcb0e-33a5-4673-a239-fdafb4fcb2d8] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T22:55:58.275Z] [WORKFLOW-ce2dcb0e-33a5-4673-a239-fdafb4fcb2d8] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:55:58.276Z] [WORKFLOW-ce2dcb0e-33a5-4673-a239-fdafb4fcb2d8] Processed point ID: 050_load → 050_load
+[2025-05-19T22:55:58.276Z] [WORKFLOW-ce2dcb0e-33a5-4673-a239-fdafb4fcb2d8] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T22:55:58.277Z] [WORKFLOW-ce2dcb0e-33a5-4673-a239-fdafb4fcb2d8] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T22:55:58.277Z] [WORKFLOW-ce2dcb0e-33a5-4673-a239-fdafb4fcb2d8] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:55:58.277Z] [WORKFLOW-ce2dcb0e-33a5-4673-a239-fdafb4fcb2d8] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-19T22:55:58.278Z] [WORKFLOW-ce2dcb0e-33a5-4673-a239-fdafb4fcb2d8] Getting coordinates for point: 115_load
+[2025-05-19T22:55:58.278Z] [WORKFLOW-ce2dcb0e-33a5-4673-a239-fdafb4fcb2d8] Found coordinates for 115_load: (-6.917, 6.721, 0)
+[2025-05-19T22:55:58.286Z] [WORKFLOW-ce2dcb0e-33a5-4673-a239-fdafb4fcb2d8] ✅ Created central-to-shelf mission with ID: mission_1747695358278_desqt0a
+[2025-05-19T22:57:27.522Z] [WORKFLOW-c4d48904-d1be-4816-95f8-ba264f9015d0] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-19T22:57:27.527Z] [WORKFLOW-c4d48904-d1be-4816-95f8-ba264f9015d0] ✅ Cancelled any existing active missions
+[2025-05-19T22:57:27.528Z] [WORKFLOW-c4d48904-d1be-4816-95f8-ba264f9015d0] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-19T22:57:27.528Z] [WORKFLOW-c4d48904-d1be-4816-95f8-ba264f9015d0] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:57:27.528Z] [WORKFLOW-c4d48904-d1be-4816-95f8-ba264f9015d0] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T22:57:27.528Z] [WORKFLOW-c4d48904-d1be-4816-95f8-ba264f9015d0] Getting coordinates for point: 050_load_docking
+[2025-05-19T22:57:27.529Z] [WORKFLOW-c4d48904-d1be-4816-95f8-ba264f9015d0] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T22:57:27.529Z] [WORKFLOW-c4d48904-d1be-4816-95f8-ba264f9015d0] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:57:27.529Z] [WORKFLOW-c4d48904-d1be-4816-95f8-ba264f9015d0] Processed point ID: 050_load → 050_load
+[2025-05-19T22:57:27.529Z] [WORKFLOW-c4d48904-d1be-4816-95f8-ba264f9015d0] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T22:57:27.529Z] [WORKFLOW-c4d48904-d1be-4816-95f8-ba264f9015d0] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T22:57:27.530Z] [WORKFLOW-c4d48904-d1be-4816-95f8-ba264f9015d0] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T22:57:27.530Z] [WORKFLOW-c4d48904-d1be-4816-95f8-ba264f9015d0] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-19T22:57:27.530Z] [WORKFLOW-c4d48904-d1be-4816-95f8-ba264f9015d0] Getting unload point coordinates for: 115_load
+[2025-05-19T22:57:27.530Z] [WORKFLOW-c4d48904-d1be-4816-95f8-ba264f9015d0] Found unload point coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-19T22:57:27.530Z] [WORKFLOW-c4d48904-d1be-4816-95f8-ba264f9015d0] CRITICAL FIX: Using full point ID "115_load" as rack_area_id instead of extracted prefix
+[2025-05-19T22:57:27.531Z] [WORKFLOW-c4d48904-d1be-4816-95f8-ba264f9015d0] This ensures consistent behavior with to-unload-point-action.ts implementation
+[2025-05-19T22:57:27.531Z] [WORKFLOW-c4d48904-d1be-4816-95f8-ba264f9015d0] FINAL rack_area_id = "115_load" for point "115_load"
+[2025-05-19T22:57:27.554Z] [WORKFLOW-c4d48904-d1be-4816-95f8-ba264f9015d0] ✅ Created central-to-shelf mission with ID: mission_1747695447531_j1vqcie
+[2025-05-19T23:23:20.125Z] [WORKFLOW-20bfbb69-ef6c-46ed-9da2-15ecfcbeec08] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-19T23:23:20.130Z] [WORKFLOW-20bfbb69-ef6c-46ed-9da2-15ecfcbeec08] ✅ Cancelled any existing active missions
+[2025-05-19T23:23:20.131Z] [WORKFLOW-20bfbb69-ef6c-46ed-9da2-15ecfcbeec08] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-19T23:23:20.131Z] [WORKFLOW-20bfbb69-ef6c-46ed-9da2-15ecfcbeec08] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T23:23:20.132Z] [WORKFLOW-20bfbb69-ef6c-46ed-9da2-15ecfcbeec08] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T23:23:20.132Z] [WORKFLOW-20bfbb69-ef6c-46ed-9da2-15ecfcbeec08] Getting coordinates for point: 050_load_docking
+[2025-05-19T23:23:20.133Z] [WORKFLOW-20bfbb69-ef6c-46ed-9da2-15ecfcbeec08] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T23:23:20.133Z] [WORKFLOW-20bfbb69-ef6c-46ed-9da2-15ecfcbeec08] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T23:23:20.134Z] [WORKFLOW-20bfbb69-ef6c-46ed-9da2-15ecfcbeec08] Processed point ID: 050_load → 050_load
+[2025-05-19T23:23:20.134Z] [WORKFLOW-20bfbb69-ef6c-46ed-9da2-15ecfcbeec08] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T23:23:20.135Z] [WORKFLOW-20bfbb69-ef6c-46ed-9da2-15ecfcbeec08] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T23:23:20.135Z] [WORKFLOW-20bfbb69-ef6c-46ed-9da2-15ecfcbeec08] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T23:23:20.136Z] [WORKFLOW-20bfbb69-ef6c-46ed-9da2-15ecfcbeec08] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-19T23:23:20.136Z] [WORKFLOW-20bfbb69-ef6c-46ed-9da2-15ecfcbeec08] Getting unload point coordinates for: 115_load
+[2025-05-19T23:23:20.136Z] [WORKFLOW-20bfbb69-ef6c-46ed-9da2-15ecfcbeec08] Found unload point coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-19T23:23:20.136Z] [WORKFLOW-20bfbb69-ef6c-46ed-9da2-15ecfcbeec08] CRITICAL FIX: Using full point ID "115_load" as rack_area_id instead of extracted prefix
+[2025-05-19T23:23:20.137Z] [WORKFLOW-20bfbb69-ef6c-46ed-9da2-15ecfcbeec08] This ensures consistent behavior with to-unload-point-action.ts implementation
+[2025-05-19T23:23:20.137Z] [WORKFLOW-20bfbb69-ef6c-46ed-9da2-15ecfcbeec08] FINAL rack_area_id = "115_load" for point "115_load"
+[2025-05-19T23:23:20.164Z] [WORKFLOW-20bfbb69-ef6c-46ed-9da2-15ecfcbeec08] ✅ Created central-to-shelf mission with ID: mission_1747697000138_2tonuok
+[2025-05-19T23:26:11.813Z] [WORKFLOW-78ccc94c-f5c0-47e3-b59c-d1978f098cfe] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-19T23:26:11.817Z] [WORKFLOW-78ccc94c-f5c0-47e3-b59c-d1978f098cfe] ✅ Cancelled any existing active missions
+[2025-05-19T23:26:11.817Z] [WORKFLOW-78ccc94c-f5c0-47e3-b59c-d1978f098cfe] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-19T23:26:11.817Z] [WORKFLOW-78ccc94c-f5c0-47e3-b59c-d1978f098cfe] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T23:26:11.817Z] [WORKFLOW-78ccc94c-f5c0-47e3-b59c-d1978f098cfe] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T23:26:11.817Z] [WORKFLOW-78ccc94c-f5c0-47e3-b59c-d1978f098cfe] Getting coordinates for point: 050_load_docking
+[2025-05-19T23:26:11.818Z] [WORKFLOW-78ccc94c-f5c0-47e3-b59c-d1978f098cfe] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T23:26:11.818Z] [WORKFLOW-78ccc94c-f5c0-47e3-b59c-d1978f098cfe] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T23:26:11.818Z] [WORKFLOW-78ccc94c-f5c0-47e3-b59c-d1978f098cfe] Processed point ID: 050_load → 050_load
+[2025-05-19T23:26:11.818Z] [WORKFLOW-78ccc94c-f5c0-47e3-b59c-d1978f098cfe] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T23:26:11.818Z] [WORKFLOW-78ccc94c-f5c0-47e3-b59c-d1978f098cfe] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T23:26:11.819Z] [WORKFLOW-78ccc94c-f5c0-47e3-b59c-d1978f098cfe] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T23:26:11.819Z] [WORKFLOW-78ccc94c-f5c0-47e3-b59c-d1978f098cfe] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-19T23:26:11.819Z] [WORKFLOW-78ccc94c-f5c0-47e3-b59c-d1978f098cfe] Getting unload point coordinates for: 115_load
+[2025-05-19T23:26:11.819Z] [WORKFLOW-78ccc94c-f5c0-47e3-b59c-d1978f098cfe] Found unload point coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-19T23:26:11.819Z] [WORKFLOW-78ccc94c-f5c0-47e3-b59c-d1978f098cfe] CRITICAL FIX: Using full point ID "115_load" as rack_area_id instead of extracted prefix
+[2025-05-19T23:26:11.819Z] [WORKFLOW-78ccc94c-f5c0-47e3-b59c-d1978f098cfe] This ensures consistent behavior with to-unload-point-action.ts implementation
+[2025-05-19T23:26:11.819Z] [WORKFLOW-78ccc94c-f5c0-47e3-b59c-d1978f098cfe] FINAL rack_area_id = "115_load" for point "115_load"
+[2025-05-19T23:26:11.854Z] [WORKFLOW-78ccc94c-f5c0-47e3-b59c-d1978f098cfe] ✅ Created central-to-shelf mission with ID: mission_1747697171820_miauec2
+[2025-05-19T23:28:40.980Z] [WORKFLOW-5ac199fa-48d2-4a6d-8f86-6bcf36828756] Starting workflow shelf-to-central with params: {"serviceType":"robot","operationType":"pickup","floorId":"4","shelfId":"115_load"}
+[2025-05-19T23:28:40.982Z] [WORKFLOW-5ac199fa-48d2-4a6d-8f86-6bcf36828756] ✅ Cancelled any existing active missions
+[2025-05-19T23:28:40.983Z] [WORKFLOW-5ac199fa-48d2-4a6d-8f86-6bcf36828756] Using generic shelf-to-central template with pickupShelf=115_load
+[2025-05-19T23:28:40.984Z] [WORKFLOW-5ac199fa-48d2-4a6d-8f86-6bcf36828756] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T23:28:40.984Z] [WORKFLOW-5ac199fa-48d2-4a6d-8f86-6bcf36828756] Processed point ID: {pickupShelf}_load_docking → 115_load_docking
+[2025-05-19T23:28:40.984Z] [WORKFLOW-5ac199fa-48d2-4a6d-8f86-6bcf36828756] Getting coordinates for point: 115_load_docking
+[2025-05-19T23:28:40.984Z] [WORKFLOW-5ac199fa-48d2-4a6d-8f86-6bcf36828756] Found coordinates for 115_load_docking: (-6.917, 6.721, 0)
+[2025-05-19T23:28:40.984Z] [WORKFLOW-5ac199fa-48d2-4a6d-8f86-6bcf36828756] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T23:28:40.985Z] [WORKFLOW-5ac199fa-48d2-4a6d-8f86-6bcf36828756] Processed point ID: {pickupShelf}_load → 115_load
+[2025-05-19T23:28:40.985Z] [WORKFLOW-5ac199fa-48d2-4a6d-8f86-6bcf36828756] Getting shelf alignment coordinates for: 115_load
+[2025-05-19T23:28:40.985Z] [WORKFLOW-5ac199fa-48d2-4a6d-8f86-6bcf36828756] Found shelf coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-19T23:28:40.985Z] [WORKFLOW-5ac199fa-48d2-4a6d-8f86-6bcf36828756] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-19T23:28:40.985Z] [WORKFLOW-5ac199fa-48d2-4a6d-8f86-6bcf36828756] Processed point ID: 001_load → 001_load
+[2025-05-19T23:28:41.024Z] [WORKFLOW-5ac199fa-48d2-4a6d-8f86-6bcf36828756] ✅ Created shelf-to-central mission with ID: mission_1747697320985_0gnhond and 5 steps
+[2025-05-19T23:31:20.551Z] [WORKFLOW-dc94659e-0047-4540-8e3e-e6b73222afe7] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"110_load"}
+[2025-05-19T23:31:20.554Z] [WORKFLOW-dc94659e-0047-4540-8e3e-e6b73222afe7] ✅ Cancelled any existing active missions
+[2025-05-19T23:31:20.554Z] [WORKFLOW-dc94659e-0047-4540-8e3e-e6b73222afe7] Using generic central-to-shelf template with dropoffShelf=110_load
+[2025-05-19T23:31:20.554Z] [WORKFLOW-dc94659e-0047-4540-8e3e-e6b73222afe7] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T23:31:20.554Z] [WORKFLOW-dc94659e-0047-4540-8e3e-e6b73222afe7] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T23:31:20.554Z] [WORKFLOW-dc94659e-0047-4540-8e3e-e6b73222afe7] Getting coordinates for point: 050_load_docking
+[2025-05-19T23:31:20.555Z] [WORKFLOW-dc94659e-0047-4540-8e3e-e6b73222afe7] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T23:31:20.555Z] [WORKFLOW-dc94659e-0047-4540-8e3e-e6b73222afe7] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T23:31:20.555Z] [WORKFLOW-dc94659e-0047-4540-8e3e-e6b73222afe7] Processed point ID: 050_load → 050_load
+[2025-05-19T23:31:20.555Z] [WORKFLOW-dc94659e-0047-4540-8e3e-e6b73222afe7] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T23:31:20.555Z] [WORKFLOW-dc94659e-0047-4540-8e3e-e6b73222afe7] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T23:31:20.555Z] [WORKFLOW-dc94659e-0047-4540-8e3e-e6b73222afe7] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T23:31:20.555Z] [WORKFLOW-dc94659e-0047-4540-8e3e-e6b73222afe7] Processed point ID: {dropoffShelf}_load → 110_load
+[2025-05-19T23:31:20.555Z] [WORKFLOW-dc94659e-0047-4540-8e3e-e6b73222afe7] Getting unload point coordinates for: 110_load
+[2025-05-19T23:31:20.556Z] [WORKFLOW-dc94659e-0047-4540-8e3e-e6b73222afe7] ❌ ERROR: Could not find unload point coordinates for 110_load
+[2025-05-19T23:31:20.556Z] [WORKFLOW-dc94659e-0047-4540-8e3e-e6b73222afe7] ❌ Error creating central-to-shelf workflow: Could not find unload point coordinates for 110_load
+[2025-05-19T23:41:37.838Z] [WORKFLOW-432e9937-e85c-458d-998f-dbf96bd35d49] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"110_load"}
+[2025-05-19T23:41:37.844Z] [WORKFLOW-432e9937-e85c-458d-998f-dbf96bd35d49] ✅ Cancelled any existing active missions
+[2025-05-19T23:41:37.845Z] [WORKFLOW-432e9937-e85c-458d-998f-dbf96bd35d49] Using generic central-to-shelf template with dropoffShelf=110_load
+[2025-05-19T23:41:37.845Z] [WORKFLOW-432e9937-e85c-458d-998f-dbf96bd35d49] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T23:41:37.845Z] [WORKFLOW-432e9937-e85c-458d-998f-dbf96bd35d49] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T23:41:37.846Z] [WORKFLOW-432e9937-e85c-458d-998f-dbf96bd35d49] Getting coordinates for point: 050_load_docking
+[2025-05-19T23:41:37.850Z] [WORKFLOW-432e9937-e85c-458d-998f-dbf96bd35d49] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T23:41:37.850Z] [WORKFLOW-432e9937-e85c-458d-998f-dbf96bd35d49] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T23:41:37.851Z] [WORKFLOW-432e9937-e85c-458d-998f-dbf96bd35d49] Processed point ID: 050_load → 050_load
+[2025-05-19T23:41:37.851Z] [WORKFLOW-432e9937-e85c-458d-998f-dbf96bd35d49] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T23:41:37.851Z] [WORKFLOW-432e9937-e85c-458d-998f-dbf96bd35d49] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T23:41:37.851Z] [WORKFLOW-432e9937-e85c-458d-998f-dbf96bd35d49] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T23:41:37.851Z] [WORKFLOW-432e9937-e85c-458d-998f-dbf96bd35d49] Processed point ID: {dropoffShelf}_load → 110_load
+[2025-05-19T23:41:37.852Z] [WORKFLOW-432e9937-e85c-458d-998f-dbf96bd35d49] Getting unload point coordinates for: 110_load
+[2025-05-19T23:41:37.852Z] [WORKFLOW-432e9937-e85c-458d-998f-dbf96bd35d49] ❌ ERROR: Could not find unload point coordinates for 110_load
+[2025-05-19T23:41:37.853Z] [WORKFLOW-432e9937-e85c-458d-998f-dbf96bd35d49] ❌ Error creating central-to-shelf workflow: Could not find unload point coordinates for 110_load
+[2025-05-19T23:42:19.418Z] [WORKFLOW-de5297c0-ba7e-44e0-bb73-ba393895bfa1] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"110_load"}
+[2025-05-19T23:42:19.420Z] [WORKFLOW-de5297c0-ba7e-44e0-bb73-ba393895bfa1] ✅ Cancelled any existing active missions
+[2025-05-19T23:42:19.420Z] [WORKFLOW-de5297c0-ba7e-44e0-bb73-ba393895bfa1] Using generic central-to-shelf template with dropoffShelf=110_load
+[2025-05-19T23:42:19.420Z] [WORKFLOW-de5297c0-ba7e-44e0-bb73-ba393895bfa1] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T23:42:19.421Z] [WORKFLOW-de5297c0-ba7e-44e0-bb73-ba393895bfa1] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T23:42:19.421Z] [WORKFLOW-de5297c0-ba7e-44e0-bb73-ba393895bfa1] Getting coordinates for point: 050_load_docking
+[2025-05-19T23:42:19.421Z] [WORKFLOW-de5297c0-ba7e-44e0-bb73-ba393895bfa1] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T23:42:19.421Z] [WORKFLOW-de5297c0-ba7e-44e0-bb73-ba393895bfa1] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T23:42:19.421Z] [WORKFLOW-de5297c0-ba7e-44e0-bb73-ba393895bfa1] Processed point ID: 050_load → 050_load
+[2025-05-19T23:42:19.421Z] [WORKFLOW-de5297c0-ba7e-44e0-bb73-ba393895bfa1] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T23:42:19.421Z] [WORKFLOW-de5297c0-ba7e-44e0-bb73-ba393895bfa1] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T23:42:19.421Z] [WORKFLOW-de5297c0-ba7e-44e0-bb73-ba393895bfa1] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T23:42:19.421Z] [WORKFLOW-de5297c0-ba7e-44e0-bb73-ba393895bfa1] Processed point ID: {dropoffShelf}_load → 110_load
+[2025-05-19T23:42:19.422Z] [WORKFLOW-de5297c0-ba7e-44e0-bb73-ba393895bfa1] Getting unload point coordinates for: 110_load
+[2025-05-19T23:42:19.422Z] [WORKFLOW-de5297c0-ba7e-44e0-bb73-ba393895bfa1] ❌ ERROR: Could not find unload point coordinates for 110_load
+[2025-05-19T23:42:19.422Z] [WORKFLOW-de5297c0-ba7e-44e0-bb73-ba393895bfa1] ❌ Error creating central-to-shelf workflow: Could not find unload point coordinates for 110_load
+[2025-05-19T23:50:07.743Z] [WORKFLOW-7e23caf8-59c2-4f99-b863-076335b56903] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"110_load"}
+[2025-05-19T23:50:07.746Z] [WORKFLOW-7e23caf8-59c2-4f99-b863-076335b56903] ✅ Cancelled any existing active missions
+[2025-05-19T23:50:07.746Z] [WORKFLOW-7e23caf8-59c2-4f99-b863-076335b56903] Using generic central-to-shelf template with dropoffShelf=110_load
+[2025-05-19T23:50:07.746Z] [WORKFLOW-7e23caf8-59c2-4f99-b863-076335b56903] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T23:50:07.746Z] [WORKFLOW-7e23caf8-59c2-4f99-b863-076335b56903] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-19T23:50:07.746Z] [WORKFLOW-7e23caf8-59c2-4f99-b863-076335b56903] Getting coordinates for point: 050_load_docking
+[2025-05-19T23:50:07.747Z] [WORKFLOW-7e23caf8-59c2-4f99-b863-076335b56903] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-19T23:50:07.747Z] [WORKFLOW-7e23caf8-59c2-4f99-b863-076335b56903] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T23:50:07.747Z] [WORKFLOW-7e23caf8-59c2-4f99-b863-076335b56903] Processed point ID: 050_load → 050_load
+[2025-05-19T23:50:07.747Z] [WORKFLOW-7e23caf8-59c2-4f99-b863-076335b56903] Getting shelf alignment coordinates for: 050_load
+[2025-05-19T23:50:07.747Z] [WORKFLOW-7e23caf8-59c2-4f99-b863-076335b56903] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-19T23:50:07.747Z] [WORKFLOW-7e23caf8-59c2-4f99-b863-076335b56903] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-19T23:50:07.748Z] [WORKFLOW-7e23caf8-59c2-4f99-b863-076335b56903] Processed point ID: {dropoffShelf}_load → 110_load
+[2025-05-19T23:50:07.748Z] [WORKFLOW-7e23caf8-59c2-4f99-b863-076335b56903] Getting unload point coordinates for: 110_load
+[2025-05-19T23:50:07.748Z] [WORKFLOW-7e23caf8-59c2-4f99-b863-076335b56903] ❌ ERROR: Could not find unload point coordinates for 110_load
+[2025-05-19T23:50:07.748Z] [WORKFLOW-7e23caf8-59c2-4f99-b863-076335b56903] ❌ Error creating central-to-shelf workflow: Could not find unload point coordinates for 110_load
+[2025-05-20T00:12:51.298Z] [WORKFLOW-f3f36adf-148b-4134-b3b1-abb76016c32a] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-20T00:12:51.302Z] [WORKFLOW-f3f36adf-148b-4134-b3b1-abb76016c32a] ✅ Cancelled any existing active missions
+[2025-05-20T00:12:51.302Z] [WORKFLOW-f3f36adf-148b-4134-b3b1-abb76016c32a] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-20T00:12:51.302Z] [WORKFLOW-f3f36adf-148b-4134-b3b1-abb76016c32a] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T00:12:51.302Z] [WORKFLOW-f3f36adf-148b-4134-b3b1-abb76016c32a] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-20T00:12:51.303Z] [WORKFLOW-f3f36adf-148b-4134-b3b1-abb76016c32a] Getting coordinates for point: 050_load_docking
+[2025-05-20T00:12:51.303Z] [WORKFLOW-f3f36adf-148b-4134-b3b1-abb76016c32a] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-20T00:12:51.303Z] [WORKFLOW-f3f36adf-148b-4134-b3b1-abb76016c32a] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T00:12:51.303Z] [WORKFLOW-f3f36adf-148b-4134-b3b1-abb76016c32a] Processed point ID: 050_load → 050_load
+[2025-05-20T00:12:51.303Z] [WORKFLOW-f3f36adf-148b-4134-b3b1-abb76016c32a] Getting shelf alignment coordinates for: 050_load
+[2025-05-20T00:12:51.304Z] [WORKFLOW-f3f36adf-148b-4134-b3b1-abb76016c32a] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-20T00:12:51.304Z] [WORKFLOW-f3f36adf-148b-4134-b3b1-abb76016c32a] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T00:12:51.304Z] [WORKFLOW-f3f36adf-148b-4134-b3b1-abb76016c32a] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-20T00:12:51.304Z] [WORKFLOW-f3f36adf-148b-4134-b3b1-abb76016c32a] Getting unload point coordinates for: 115_load
+[2025-05-20T00:12:51.304Z] [WORKFLOW-f3f36adf-148b-4134-b3b1-abb76016c32a] Found unload point coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-20T00:12:51.304Z] [WORKFLOW-f3f36adf-148b-4134-b3b1-abb76016c32a] CRITICAL FIX: Using full point ID "115_load" as rack_area_id instead of extracted prefix
+[2025-05-20T00:12:51.304Z] [WORKFLOW-f3f36adf-148b-4134-b3b1-abb76016c32a] This ensures consistent behavior with to-unload-point-action.ts implementation
+[2025-05-20T00:12:51.305Z] [WORKFLOW-f3f36adf-148b-4134-b3b1-abb76016c32a] FINAL rack_area_id = "115_load" for point "115_load"
+[2025-05-20T00:12:51.330Z] [WORKFLOW-f3f36adf-148b-4134-b3b1-abb76016c32a] ✅ Created central-to-shelf mission with ID: mission_1747699971305_5udnf6i
+[2025-05-20T00:22:29.682Z] [WORKFLOW-94bb0c3e-6a7d-45e7-ba3b-cd2721f29639] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-20T00:22:29.684Z] [WORKFLOW-94bb0c3e-6a7d-45e7-ba3b-cd2721f29639] ✅ Cancelled any existing active missions
+[2025-05-20T00:22:29.684Z] [WORKFLOW-94bb0c3e-6a7d-45e7-ba3b-cd2721f29639] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-20T00:22:29.684Z] [WORKFLOW-94bb0c3e-6a7d-45e7-ba3b-cd2721f29639] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T00:22:29.684Z] [WORKFLOW-94bb0c3e-6a7d-45e7-ba3b-cd2721f29639] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-20T00:22:29.684Z] [WORKFLOW-94bb0c3e-6a7d-45e7-ba3b-cd2721f29639] Getting coordinates for point: 050_load_docking
+[2025-05-20T00:22:29.685Z] [WORKFLOW-94bb0c3e-6a7d-45e7-ba3b-cd2721f29639] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-20T00:22:29.685Z] [WORKFLOW-94bb0c3e-6a7d-45e7-ba3b-cd2721f29639] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T00:22:29.685Z] [WORKFLOW-94bb0c3e-6a7d-45e7-ba3b-cd2721f29639] Processed point ID: 050_load → 050_load
+[2025-05-20T00:22:29.685Z] [WORKFLOW-94bb0c3e-6a7d-45e7-ba3b-cd2721f29639] Getting shelf alignment coordinates for: 050_load
+[2025-05-20T00:22:29.686Z] [WORKFLOW-94bb0c3e-6a7d-45e7-ba3b-cd2721f29639] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-20T00:22:29.686Z] [WORKFLOW-94bb0c3e-6a7d-45e7-ba3b-cd2721f29639] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T00:22:29.686Z] [WORKFLOW-94bb0c3e-6a7d-45e7-ba3b-cd2721f29639] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-20T00:22:29.686Z] [WORKFLOW-94bb0c3e-6a7d-45e7-ba3b-cd2721f29639] Getting unload point coordinates for: 115_load
+[2025-05-20T00:22:29.686Z] [WORKFLOW-94bb0c3e-6a7d-45e7-ba3b-cd2721f29639] Found unload point coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-20T00:22:29.686Z] [WORKFLOW-94bb0c3e-6a7d-45e7-ba3b-cd2721f29639] CRITICAL FIX: Using full point ID "115_load" as rack_area_id instead of extracted prefix
+[2025-05-20T00:22:29.686Z] [WORKFLOW-94bb0c3e-6a7d-45e7-ba3b-cd2721f29639] This ensures consistent behavior with to-unload-point-action.ts implementation
+[2025-05-20T00:22:29.686Z] [WORKFLOW-94bb0c3e-6a7d-45e7-ba3b-cd2721f29639] FINAL rack_area_id = "115_load" for point "115_load"
+[2025-05-20T00:22:29.710Z] [WORKFLOW-94bb0c3e-6a7d-45e7-ba3b-cd2721f29639] ✅ Created central-to-shelf mission with ID: mission_1747700549686_3nuybrh
+[2025-05-20T00:36:51.724Z] [WORKFLOW-773bc427-05f8-4c4a-b046-607efee9f08e] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-20T00:36:51.726Z] [WORKFLOW-773bc427-05f8-4c4a-b046-607efee9f08e] ✅ Cancelled any existing active missions
+[2025-05-20T00:36:51.726Z] [WORKFLOW-773bc427-05f8-4c4a-b046-607efee9f08e] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-20T00:36:51.727Z] [WORKFLOW-773bc427-05f8-4c4a-b046-607efee9f08e] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T00:36:51.727Z] [WORKFLOW-773bc427-05f8-4c4a-b046-607efee9f08e] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-20T00:36:51.727Z] [WORKFLOW-773bc427-05f8-4c4a-b046-607efee9f08e] Getting coordinates for point: 050_load_docking
+[2025-05-20T00:36:51.727Z] [WORKFLOW-773bc427-05f8-4c4a-b046-607efee9f08e] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-20T00:36:51.727Z] [WORKFLOW-773bc427-05f8-4c4a-b046-607efee9f08e] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T00:36:51.728Z] [WORKFLOW-773bc427-05f8-4c4a-b046-607efee9f08e] Processed point ID: 050_load → 050_load
+[2025-05-20T00:36:51.728Z] [WORKFLOW-773bc427-05f8-4c4a-b046-607efee9f08e] Getting shelf alignment coordinates for: 050_load
+[2025-05-20T00:36:51.728Z] [WORKFLOW-773bc427-05f8-4c4a-b046-607efee9f08e] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-20T00:36:51.728Z] [WORKFLOW-773bc427-05f8-4c4a-b046-607efee9f08e] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T00:36:51.728Z] [WORKFLOW-773bc427-05f8-4c4a-b046-607efee9f08e] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-20T00:36:51.729Z] [WORKFLOW-773bc427-05f8-4c4a-b046-607efee9f08e] Getting unload point coordinates for: 115_load
+[2025-05-20T00:36:51.729Z] [WORKFLOW-773bc427-05f8-4c4a-b046-607efee9f08e] Found unload point coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-20T00:36:51.729Z] [WORKFLOW-773bc427-05f8-4c4a-b046-607efee9f08e] CRITICAL FIX: Using full point ID "115_load" as rack_area_id instead of extracted prefix
+[2025-05-20T00:36:51.729Z] [WORKFLOW-773bc427-05f8-4c4a-b046-607efee9f08e] This ensures consistent behavior with to-unload-point-action.ts implementation
+[2025-05-20T00:36:51.729Z] [WORKFLOW-773bc427-05f8-4c4a-b046-607efee9f08e] FINAL rack_area_id = "115_load" for point "115_load"
+[2025-05-20T00:36:51.733Z] [WORKFLOW-773bc427-05f8-4c4a-b046-607efee9f08e] ✅ Created central-to-shelf mission with ID: mission_1747701411729_id1n7h1
+[2025-05-20T00:45:54.422Z] [WORKFLOW-282e25a2-c285-45f6-a517-ce499914c23b] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-20T00:45:54.424Z] [WORKFLOW-282e25a2-c285-45f6-a517-ce499914c23b] ✅ Cancelled any existing active missions
+[2025-05-20T00:45:54.424Z] [WORKFLOW-282e25a2-c285-45f6-a517-ce499914c23b] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-20T00:45:54.425Z] [WORKFLOW-282e25a2-c285-45f6-a517-ce499914c23b] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T00:45:54.425Z] [WORKFLOW-282e25a2-c285-45f6-a517-ce499914c23b] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-20T00:45:54.425Z] [WORKFLOW-282e25a2-c285-45f6-a517-ce499914c23b] Getting coordinates for point: 050_load_docking
+[2025-05-20T00:45:54.425Z] [WORKFLOW-282e25a2-c285-45f6-a517-ce499914c23b] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-20T00:45:54.425Z] [WORKFLOW-282e25a2-c285-45f6-a517-ce499914c23b] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T00:45:54.425Z] [WORKFLOW-282e25a2-c285-45f6-a517-ce499914c23b] Processed point ID: 050_load → 050_load
+[2025-05-20T00:45:54.425Z] [WORKFLOW-282e25a2-c285-45f6-a517-ce499914c23b] Getting shelf alignment coordinates for: 050_load
+[2025-05-20T00:45:54.426Z] [WORKFLOW-282e25a2-c285-45f6-a517-ce499914c23b] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-20T00:45:54.426Z] [WORKFLOW-282e25a2-c285-45f6-a517-ce499914c23b] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T00:45:54.426Z] [WORKFLOW-282e25a2-c285-45f6-a517-ce499914c23b] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-20T00:45:54.426Z] [WORKFLOW-282e25a2-c285-45f6-a517-ce499914c23b] Getting unload point coordinates for: 115_load
+[2025-05-20T00:45:54.426Z] [WORKFLOW-282e25a2-c285-45f6-a517-ce499914c23b] Found unload point coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-20T00:45:54.426Z] [WORKFLOW-282e25a2-c285-45f6-a517-ce499914c23b] CRITICAL FIX: Using full point ID "115_load" as rack_area_id instead of extracted prefix
+[2025-05-20T00:45:54.426Z] [WORKFLOW-282e25a2-c285-45f6-a517-ce499914c23b] This ensures consistent behavior with to-unload-point-action.ts implementation
+[2025-05-20T00:45:54.426Z] [WORKFLOW-282e25a2-c285-45f6-a517-ce499914c23b] FINAL rack_area_id = "115_load" for point "115_load"
+[2025-05-20T00:45:54.442Z] [WORKFLOW-282e25a2-c285-45f6-a517-ce499914c23b] ✅ Created central-to-shelf mission with ID: mission_1747701954427_esfxvir
+[2025-05-20T00:52:48.030Z] [WORKFLOW-8cdf16fb-27fa-4965-8227-4980880ace66] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-20T00:52:48.033Z] [WORKFLOW-8cdf16fb-27fa-4965-8227-4980880ace66] ✅ Cancelled any existing active missions
+[2025-05-20T00:52:48.033Z] [WORKFLOW-8cdf16fb-27fa-4965-8227-4980880ace66] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-20T00:52:48.033Z] [WORKFLOW-8cdf16fb-27fa-4965-8227-4980880ace66] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T00:52:48.033Z] [WORKFLOW-8cdf16fb-27fa-4965-8227-4980880ace66] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-20T00:52:48.033Z] [WORKFLOW-8cdf16fb-27fa-4965-8227-4980880ace66] Getting coordinates for point: 050_load_docking
+[2025-05-20T00:52:48.034Z] [WORKFLOW-8cdf16fb-27fa-4965-8227-4980880ace66] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-20T00:52:48.034Z] [WORKFLOW-8cdf16fb-27fa-4965-8227-4980880ace66] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T00:52:48.034Z] [WORKFLOW-8cdf16fb-27fa-4965-8227-4980880ace66] Processed point ID: 050_load → 050_load
+[2025-05-20T00:52:48.034Z] [WORKFLOW-8cdf16fb-27fa-4965-8227-4980880ace66] Getting shelf alignment coordinates for: 050_load
+[2025-05-20T00:52:48.034Z] [WORKFLOW-8cdf16fb-27fa-4965-8227-4980880ace66] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-20T00:52:48.034Z] [WORKFLOW-8cdf16fb-27fa-4965-8227-4980880ace66] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T00:52:48.035Z] [WORKFLOW-8cdf16fb-27fa-4965-8227-4980880ace66] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-20T00:52:48.035Z] [WORKFLOW-8cdf16fb-27fa-4965-8227-4980880ace66] Getting unload point coordinates for: 115_load
+[2025-05-20T00:52:48.035Z] [WORKFLOW-8cdf16fb-27fa-4965-8227-4980880ace66] Found unload point coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-20T00:52:48.035Z] [WORKFLOW-8cdf16fb-27fa-4965-8227-4980880ace66] CRITICAL FIX: Using full point ID "115_load" as rack_area_id instead of extracted prefix
+[2025-05-20T00:52:48.035Z] [WORKFLOW-8cdf16fb-27fa-4965-8227-4980880ace66] This ensures consistent behavior with to-unload-point-action.ts implementation
+[2025-05-20T00:52:48.035Z] [WORKFLOW-8cdf16fb-27fa-4965-8227-4980880ace66] FINAL rack_area_id = "115_load" for point "115_load"
+[2025-05-20T00:52:48.040Z] [WORKFLOW-8cdf16fb-27fa-4965-8227-4980880ace66] ✅ Created central-to-shelf mission with ID: mission_1747702368035_9agyfs3
+[2025-05-20T01:00:20.594Z] [WORKFLOW-63e97db0-f1db-4753-b449-84a092c9dbcb] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-20T01:00:20.597Z] [WORKFLOW-63e97db0-f1db-4753-b449-84a092c9dbcb] ✅ Cancelled any existing active missions
+[2025-05-20T01:00:20.597Z] [WORKFLOW-63e97db0-f1db-4753-b449-84a092c9dbcb] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-20T01:00:20.597Z] [WORKFLOW-63e97db0-f1db-4753-b449-84a092c9dbcb] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T01:00:20.597Z] [WORKFLOW-63e97db0-f1db-4753-b449-84a092c9dbcb] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-20T01:00:20.597Z] [WORKFLOW-63e97db0-f1db-4753-b449-84a092c9dbcb] Getting coordinates for point: 050_load_docking
+[2025-05-20T01:00:20.597Z] [WORKFLOW-63e97db0-f1db-4753-b449-84a092c9dbcb] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-20T01:00:20.597Z] [WORKFLOW-63e97db0-f1db-4753-b449-84a092c9dbcb] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T01:00:20.598Z] [WORKFLOW-63e97db0-f1db-4753-b449-84a092c9dbcb] Processed point ID: 050_load → 050_load
+[2025-05-20T01:00:20.598Z] [WORKFLOW-63e97db0-f1db-4753-b449-84a092c9dbcb] Getting shelf alignment coordinates for: 050_load
+[2025-05-20T01:00:20.598Z] [WORKFLOW-63e97db0-f1db-4753-b449-84a092c9dbcb] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-20T01:00:20.598Z] [WORKFLOW-63e97db0-f1db-4753-b449-84a092c9dbcb] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T01:00:20.598Z] [WORKFLOW-63e97db0-f1db-4753-b449-84a092c9dbcb] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-20T01:00:20.598Z] [WORKFLOW-63e97db0-f1db-4753-b449-84a092c9dbcb] Getting unload point coordinates for: 115_load
+[2025-05-20T01:00:20.598Z] [WORKFLOW-63e97db0-f1db-4753-b449-84a092c9dbcb] Found unload point coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-20T01:00:20.598Z] [WORKFLOW-63e97db0-f1db-4753-b449-84a092c9dbcb] CRITICAL FIX: Using full point ID "115_load" as rack_area_id instead of extracted prefix
+[2025-05-20T01:00:20.599Z] [WORKFLOW-63e97db0-f1db-4753-b449-84a092c9dbcb] This ensures consistent behavior with to-unload-point-action.ts implementation
+[2025-05-20T01:00:20.599Z] [WORKFLOW-63e97db0-f1db-4753-b449-84a092c9dbcb] FINAL rack_area_id = "115_load" for point "115_load"
+[2025-05-20T01:00:20.604Z] [WORKFLOW-63e97db0-f1db-4753-b449-84a092c9dbcb] ✅ Created central-to-shelf mission with ID: mission_1747702820599_4a4647s
+[2025-05-20T01:10:04.147Z] [WORKFLOW-ed317482-848a-4301-9d62-7a59c0d9ca1f] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-20T01:10:04.150Z] [WORKFLOW-ed317482-848a-4301-9d62-7a59c0d9ca1f] ✅ Cancelled any existing active missions
+[2025-05-20T01:10:04.151Z] [WORKFLOW-ed317482-848a-4301-9d62-7a59c0d9ca1f] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-20T01:10:04.151Z] [WORKFLOW-ed317482-848a-4301-9d62-7a59c0d9ca1f] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T01:10:04.151Z] [WORKFLOW-ed317482-848a-4301-9d62-7a59c0d9ca1f] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-20T01:10:04.151Z] [WORKFLOW-ed317482-848a-4301-9d62-7a59c0d9ca1f] Getting coordinates for point: 050_load_docking
+[2025-05-20T01:10:04.151Z] [WORKFLOW-ed317482-848a-4301-9d62-7a59c0d9ca1f] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-20T01:10:04.151Z] [WORKFLOW-ed317482-848a-4301-9d62-7a59c0d9ca1f] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T01:10:04.151Z] [WORKFLOW-ed317482-848a-4301-9d62-7a59c0d9ca1f] Processed point ID: 050_load → 050_load
+[2025-05-20T01:10:04.151Z] [WORKFLOW-ed317482-848a-4301-9d62-7a59c0d9ca1f] Getting shelf alignment coordinates for: 050_load
+[2025-05-20T01:10:04.152Z] [WORKFLOW-ed317482-848a-4301-9d62-7a59c0d9ca1f] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-20T01:10:04.152Z] [WORKFLOW-ed317482-848a-4301-9d62-7a59c0d9ca1f] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T01:10:04.152Z] [WORKFLOW-ed317482-848a-4301-9d62-7a59c0d9ca1f] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-20T01:10:04.152Z] [WORKFLOW-ed317482-848a-4301-9d62-7a59c0d9ca1f] Getting unload point coordinates for: 115_load
+[2025-05-20T01:10:04.152Z] [WORKFLOW-ed317482-848a-4301-9d62-7a59c0d9ca1f] Found unload point coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-20T01:10:04.152Z] [WORKFLOW-ed317482-848a-4301-9d62-7a59c0d9ca1f] CRITICAL FIX: Using full point ID "115_load" as rack_area_id instead of extracted prefix
+[2025-05-20T01:10:04.152Z] [WORKFLOW-ed317482-848a-4301-9d62-7a59c0d9ca1f] This ensures consistent behavior with to-unload-point-action.ts implementation
+[2025-05-20T01:10:04.152Z] [WORKFLOW-ed317482-848a-4301-9d62-7a59c0d9ca1f] FINAL rack_area_id = "115_load" for point "115_load"
+[2025-05-20T01:10:04.176Z] [WORKFLOW-ed317482-848a-4301-9d62-7a59c0d9ca1f] ✅ Created central-to-shelf mission with ID: mission_1747703404153_prwdbj3
+[2025-05-20T01:25:02.631Z] [WORKFLOW-a2d10e96-20b1-46ee-87a4-1177614c03b4] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-20T01:25:02.638Z] [WORKFLOW-a2d10e96-20b1-46ee-87a4-1177614c03b4] ✅ Cancelled any existing active missions
+[2025-05-20T01:25:02.638Z] [WORKFLOW-a2d10e96-20b1-46ee-87a4-1177614c03b4] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-20T01:25:02.639Z] [WORKFLOW-a2d10e96-20b1-46ee-87a4-1177614c03b4] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T01:25:02.639Z] [WORKFLOW-a2d10e96-20b1-46ee-87a4-1177614c03b4] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-20T01:25:02.639Z] [WORKFLOW-a2d10e96-20b1-46ee-87a4-1177614c03b4] Getting coordinates for point: 050_load_docking
+[2025-05-20T01:25:02.640Z] [WORKFLOW-a2d10e96-20b1-46ee-87a4-1177614c03b4] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-20T01:25:02.640Z] [WORKFLOW-a2d10e96-20b1-46ee-87a4-1177614c03b4] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T01:25:02.641Z] [WORKFLOW-a2d10e96-20b1-46ee-87a4-1177614c03b4] Processed point ID: 050_load → 050_load
+[2025-05-20T01:25:02.641Z] [WORKFLOW-a2d10e96-20b1-46ee-87a4-1177614c03b4] Getting shelf alignment coordinates for: 050_load
+[2025-05-20T01:25:02.641Z] [WORKFLOW-a2d10e96-20b1-46ee-87a4-1177614c03b4] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-20T01:25:02.642Z] [WORKFLOW-a2d10e96-20b1-46ee-87a4-1177614c03b4] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T01:25:02.642Z] [WORKFLOW-a2d10e96-20b1-46ee-87a4-1177614c03b4] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-20T01:25:02.642Z] [WORKFLOW-a2d10e96-20b1-46ee-87a4-1177614c03b4] Getting unload point coordinates for: 115_load
+[2025-05-20T01:25:02.642Z] [WORKFLOW-a2d10e96-20b1-46ee-87a4-1177614c03b4] Found unload point coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-20T01:25:02.642Z] [WORKFLOW-a2d10e96-20b1-46ee-87a4-1177614c03b4] CRITICAL FIX: Using full point ID "115_load" as rack_area_id instead of extracted prefix
+[2025-05-20T01:25:02.642Z] [WORKFLOW-a2d10e96-20b1-46ee-87a4-1177614c03b4] This ensures consistent behavior with to-unload-point-action.ts implementation
+[2025-05-20T01:25:02.642Z] [WORKFLOW-a2d10e96-20b1-46ee-87a4-1177614c03b4] FINAL rack_area_id = "115_load" for point "115_load"
+[2025-05-20T01:25:02.650Z] [WORKFLOW-a2d10e96-20b1-46ee-87a4-1177614c03b4] ✅ Created central-to-shelf mission with ID: mission_1747704302642_uk148fv
+[2025-05-20T01:29:14.507Z] [WORKFLOW-af423124-182b-4c5f-83b9-c4c4721815f2] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-20T01:29:14.512Z] [WORKFLOW-af423124-182b-4c5f-83b9-c4c4721815f2] ✅ Cancelled any existing active missions
+[2025-05-20T01:29:14.512Z] [WORKFLOW-af423124-182b-4c5f-83b9-c4c4721815f2] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-20T01:29:14.512Z] [WORKFLOW-af423124-182b-4c5f-83b9-c4c4721815f2] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T01:29:14.513Z] [WORKFLOW-af423124-182b-4c5f-83b9-c4c4721815f2] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-20T01:29:14.513Z] [WORKFLOW-af423124-182b-4c5f-83b9-c4c4721815f2] Getting coordinates for point: 050_load_docking
+[2025-05-20T01:29:14.513Z] [WORKFLOW-af423124-182b-4c5f-83b9-c4c4721815f2] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-20T01:29:14.514Z] [WORKFLOW-af423124-182b-4c5f-83b9-c4c4721815f2] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T01:29:14.514Z] [WORKFLOW-af423124-182b-4c5f-83b9-c4c4721815f2] Processed point ID: 050_load → 050_load
+[2025-05-20T01:29:14.514Z] [WORKFLOW-af423124-182b-4c5f-83b9-c4c4721815f2] Getting shelf alignment coordinates for: 050_load
+[2025-05-20T01:29:14.514Z] [WORKFLOW-af423124-182b-4c5f-83b9-c4c4721815f2] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-20T01:29:14.515Z] [WORKFLOW-af423124-182b-4c5f-83b9-c4c4721815f2] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T01:29:14.515Z] [WORKFLOW-af423124-182b-4c5f-83b9-c4c4721815f2] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-20T01:29:14.515Z] [WORKFLOW-af423124-182b-4c5f-83b9-c4c4721815f2] Getting coordinates for point: 115_load
+[2025-05-20T01:29:14.516Z] [WORKFLOW-af423124-182b-4c5f-83b9-c4c4721815f2] Found coordinates for 115_load: (-6.917, 6.721, 0)
+[2025-05-20T01:29:14.537Z] [WORKFLOW-af423124-182b-4c5f-83b9-c4c4721815f2] ✅ Created central-to-shelf mission with ID: mission_1747704554516_lwe5wev
+[2025-05-20T01:31:56.584Z] [WORKFLOW-22d68aca-6bb1-4090-a295-3f5c90be918e] Starting workflow shelf-to-central with params: {"serviceType":"robot","operationType":"pickup","floorId":"4","shelfId":"115_load"}
+[2025-05-20T01:31:56.587Z] [WORKFLOW-22d68aca-6bb1-4090-a295-3f5c90be918e] ✅ Cancelled any existing active missions
+[2025-05-20T01:31:56.587Z] [WORKFLOW-22d68aca-6bb1-4090-a295-3f5c90be918e] Using generic shelf-to-central template with pickupShelf=115_load
+[2025-05-20T01:31:56.587Z] [WORKFLOW-22d68aca-6bb1-4090-a295-3f5c90be918e] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T01:31:56.587Z] [WORKFLOW-22d68aca-6bb1-4090-a295-3f5c90be918e] Processed point ID: {pickupShelf}_load_docking → 115_load_docking
+[2025-05-20T01:31:56.587Z] [WORKFLOW-22d68aca-6bb1-4090-a295-3f5c90be918e] Getting coordinates for point: 115_load_docking
+[2025-05-20T01:31:56.588Z] [WORKFLOW-22d68aca-6bb1-4090-a295-3f5c90be918e] Found coordinates for 115_load_docking: (-6.917, 6.721, 0)
+[2025-05-20T01:31:56.588Z] [WORKFLOW-22d68aca-6bb1-4090-a295-3f5c90be918e] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T01:31:56.588Z] [WORKFLOW-22d68aca-6bb1-4090-a295-3f5c90be918e] Processed point ID: {pickupShelf}_load → 115_load
+[2025-05-20T01:31:56.588Z] [WORKFLOW-22d68aca-6bb1-4090-a295-3f5c90be918e] Getting shelf alignment coordinates for: 115_load
+[2025-05-20T01:31:56.588Z] [WORKFLOW-22d68aca-6bb1-4090-a295-3f5c90be918e] Found shelf coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-20T01:31:56.588Z] [WORKFLOW-22d68aca-6bb1-4090-a295-3f5c90be918e] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T01:31:56.588Z] [WORKFLOW-22d68aca-6bb1-4090-a295-3f5c90be918e] Processed point ID: 001_load → 001_load
+[2025-05-20T01:31:56.588Z] [WORKFLOW-22d68aca-6bb1-4090-a295-3f5c90be918e] Getting coordinates for point: 001_load
+[2025-05-20T01:31:56.589Z] [WORKFLOW-22d68aca-6bb1-4090-a295-3f5c90be918e] Found coordinates for 001_load: (-1.85, 3.366, 0)
+[2025-05-20T01:31:56.637Z] [WORKFLOW-22d68aca-6bb1-4090-a295-3f5c90be918e] ✅ Created shelf-to-central mission with ID: mission_1747704716589_gfre7bs and 6 steps
+[2025-05-20T01:43:02.974Z] [WORKFLOW-0c1edd0c-a241-4a77-94c4-c04e0b60ad41] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-20T01:43:02.977Z] [WORKFLOW-0c1edd0c-a241-4a77-94c4-c04e0b60ad41] ✅ Cancelled any existing active missions
+[2025-05-20T01:43:02.977Z] [WORKFLOW-0c1edd0c-a241-4a77-94c4-c04e0b60ad41] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-20T01:43:02.977Z] [WORKFLOW-0c1edd0c-a241-4a77-94c4-c04e0b60ad41] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T01:43:02.977Z] [WORKFLOW-0c1edd0c-a241-4a77-94c4-c04e0b60ad41] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-20T01:43:02.977Z] [WORKFLOW-0c1edd0c-a241-4a77-94c4-c04e0b60ad41] Getting coordinates for point: 050_load_docking
+[2025-05-20T01:43:02.978Z] [WORKFLOW-0c1edd0c-a241-4a77-94c4-c04e0b60ad41] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-20T01:43:02.978Z] [WORKFLOW-0c1edd0c-a241-4a77-94c4-c04e0b60ad41] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T01:43:02.978Z] [WORKFLOW-0c1edd0c-a241-4a77-94c4-c04e0b60ad41] Processed point ID: 050_load → 050_load
+[2025-05-20T01:43:02.978Z] [WORKFLOW-0c1edd0c-a241-4a77-94c4-c04e0b60ad41] Getting shelf alignment coordinates for: 050_load
+[2025-05-20T01:43:02.978Z] [WORKFLOW-0c1edd0c-a241-4a77-94c4-c04e0b60ad41] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-20T01:43:02.981Z] [WORKFLOW-0c1edd0c-a241-4a77-94c4-c04e0b60ad41] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T01:43:02.981Z] [WORKFLOW-0c1edd0c-a241-4a77-94c4-c04e0b60ad41] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-20T01:43:02.981Z] [WORKFLOW-0c1edd0c-a241-4a77-94c4-c04e0b60ad41] Getting coordinates for point: 115_load
+[2025-05-20T01:43:02.981Z] [WORKFLOW-0c1edd0c-a241-4a77-94c4-c04e0b60ad41] Found coordinates for 115_load: (-6.917, 6.721, 0)
+[2025-05-20T01:43:02.999Z] [WORKFLOW-0c1edd0c-a241-4a77-94c4-c04e0b60ad41] ✅ Created central-to-shelf mission with ID: mission_1747705382982_oohte00
+[2025-05-20T01:44:49.662Z] [WORKFLOW-a76c388a-0c95-4341-ae0f-5f5cf6241b5d] Starting workflow shelf-to-central with params: {"serviceType":"robot","operationType":"pickup","floorId":"4","shelfId":"110_load"}
+[2025-05-20T01:44:49.670Z] [WORKFLOW-a76c388a-0c95-4341-ae0f-5f5cf6241b5d] ✅ Cancelled any existing active missions
+[2025-05-20T01:44:49.671Z] [WORKFLOW-a76c388a-0c95-4341-ae0f-5f5cf6241b5d] Using generic shelf-to-central template with pickupShelf=110_load
+[2025-05-20T01:44:49.671Z] [WORKFLOW-a76c388a-0c95-4341-ae0f-5f5cf6241b5d] Removed duplicate '_load' suffix from shelf ID: 110_load → 110
+[2025-05-20T01:44:49.671Z] [WORKFLOW-a76c388a-0c95-4341-ae0f-5f5cf6241b5d] Processed point ID: {pickupShelf}_load_docking → 110_load_docking
+[2025-05-20T01:44:49.671Z] [WORKFLOW-a76c388a-0c95-4341-ae0f-5f5cf6241b5d] Getting coordinates for point: 110_load_docking
+[2025-05-20T01:44:49.672Z] [WORKFLOW-a76c388a-0c95-4341-ae0f-5f5cf6241b5d] ❌ ERROR: Could not find coordinates for point 110_load_docking
+[2025-05-20T01:44:49.672Z] [WORKFLOW-a76c388a-0c95-4341-ae0f-5f5cf6241b5d] ❌ Error creating shelf-to-central workflow: Could not find coordinates for point 110_load_docking
+[2025-05-20T01:48:26.837Z] [WORKFLOW-4f7ff3cc-30e2-4733-8c41-7940446accfe] Starting workflow central-to-shelf with params: {"serviceType":"robot","operationType":"dropoff","floorId":"4","shelfId":"115_load"}
+[2025-05-20T01:48:26.840Z] [WORKFLOW-4f7ff3cc-30e2-4733-8c41-7940446accfe] ✅ Cancelled any existing active missions
+[2025-05-20T01:48:26.841Z] [WORKFLOW-4f7ff3cc-30e2-4733-8c41-7940446accfe] Using generic central-to-shelf template with dropoffShelf=115_load
+[2025-05-20T01:48:26.841Z] [WORKFLOW-4f7ff3cc-30e2-4733-8c41-7940446accfe] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T01:48:26.841Z] [WORKFLOW-4f7ff3cc-30e2-4733-8c41-7940446accfe] Processed point ID: 050_load_docking → 050_load_docking
+[2025-05-20T01:48:26.841Z] [WORKFLOW-4f7ff3cc-30e2-4733-8c41-7940446accfe] Getting coordinates for point: 050_load_docking
+[2025-05-20T01:48:26.841Z] [WORKFLOW-4f7ff3cc-30e2-4733-8c41-7940446accfe] Found coordinates for 050_load_docking: (-1.887, 2.311, 0)
+[2025-05-20T01:48:26.842Z] [WORKFLOW-4f7ff3cc-30e2-4733-8c41-7940446accfe] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T01:48:26.842Z] [WORKFLOW-4f7ff3cc-30e2-4733-8c41-7940446accfe] Processed point ID: 050_load → 050_load
+[2025-05-20T01:48:26.842Z] [WORKFLOW-4f7ff3cc-30e2-4733-8c41-7940446accfe] Getting shelf alignment coordinates for: 050_load
+[2025-05-20T01:48:26.842Z] [WORKFLOW-4f7ff3cc-30e2-4733-8c41-7940446accfe] Found shelf coordinates for 050_load: (-2.847, 2.311, 0)
+[2025-05-20T01:48:26.842Z] [WORKFLOW-4f7ff3cc-30e2-4733-8c41-7940446accfe] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T01:48:26.842Z] [WORKFLOW-4f7ff3cc-30e2-4733-8c41-7940446accfe] Processed point ID: {dropoffShelf}_load → 115_load
+[2025-05-20T01:48:26.842Z] [WORKFLOW-4f7ff3cc-30e2-4733-8c41-7940446accfe] Getting unload point coordinates for: 115_load
+[2025-05-20T01:48:26.843Z] [WORKFLOW-4f7ff3cc-30e2-4733-8c41-7940446accfe] Found unload point coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-20T01:48:26.843Z] [WORKFLOW-4f7ff3cc-30e2-4733-8c41-7940446accfe] CRITICAL FIX: Using full point ID "115_load" as rack_area_id instead of extracted prefix
+[2025-05-20T01:48:26.843Z] [WORKFLOW-4f7ff3cc-30e2-4733-8c41-7940446accfe] This ensures consistent behavior with to-unload-point-action.ts implementation
+[2025-05-20T01:48:26.843Z] [WORKFLOW-4f7ff3cc-30e2-4733-8c41-7940446accfe] FINAL rack_area_id = "115_load" for point "115_load"
+[2025-05-20T01:48:26.908Z] [WORKFLOW-4f7ff3cc-30e2-4733-8c41-7940446accfe] ✅ Created central-to-shelf mission with ID: mission_1747705706843_8vetixn
+[2025-05-20T02:35:25.842Z] [WORKFLOW-0b36cf29-3328-4b70-a32d-d1531b0bcd54] Starting workflow shelf-to-central with params: {"serviceType":"robot","operationType":"pickup","floorId":"4","shelfId":"115_load"}
+[2025-05-20T02:35:25.847Z] [WORKFLOW-0b36cf29-3328-4b70-a32d-d1531b0bcd54] ✅ Cancelled any existing active missions
+[2025-05-20T02:35:25.848Z] [WORKFLOW-0b36cf29-3328-4b70-a32d-d1531b0bcd54] Using generic shelf-to-central template with pickupShelf=115_load
+[2025-05-20T02:35:25.848Z] [WORKFLOW-0b36cf29-3328-4b70-a32d-d1531b0bcd54] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T02:35:25.848Z] [WORKFLOW-0b36cf29-3328-4b70-a32d-d1531b0bcd54] Processed point ID: {pickupShelf}_load_docking → 115_load_docking
+[2025-05-20T02:35:25.848Z] [WORKFLOW-0b36cf29-3328-4b70-a32d-d1531b0bcd54] Getting coordinates for point: 115_load_docking
+[2025-05-20T02:35:25.848Z] [WORKFLOW-0b36cf29-3328-4b70-a32d-d1531b0bcd54] Found coordinates for 115_load_docking: (-6.917, 6.721, 0)
+[2025-05-20T02:35:25.848Z] [WORKFLOW-0b36cf29-3328-4b70-a32d-d1531b0bcd54] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T02:35:25.848Z] [WORKFLOW-0b36cf29-3328-4b70-a32d-d1531b0bcd54] Processed point ID: {pickupShelf}_load → 115_load
+[2025-05-20T02:35:25.849Z] [WORKFLOW-0b36cf29-3328-4b70-a32d-d1531b0bcd54] Getting shelf alignment coordinates for: 115_load
+[2025-05-20T02:35:25.849Z] [WORKFLOW-0b36cf29-3328-4b70-a32d-d1531b0bcd54] Found shelf coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-20T02:35:25.849Z] [WORKFLOW-0b36cf29-3328-4b70-a32d-d1531b0bcd54] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T02:35:25.849Z] [WORKFLOW-0b36cf29-3328-4b70-a32d-d1531b0bcd54] Processed point ID: 001_load → 001_load
+[2025-05-20T02:35:25.873Z] [WORKFLOW-0b36cf29-3328-4b70-a32d-d1531b0bcd54] ✅ Created shelf-to-central mission with ID: mission_1747708525849_1d60ng4 and 5 steps
+[2025-05-20T02:42:08.559Z] [WORKFLOW-4ecbb611-dcdb-4551-bb87-6f9a119c853e] Starting workflow shelf-to-central with params: {"serviceType":"robot","operationType":"pickup","floorId":"4","shelfId":"115_load"}
+[2025-05-20T02:42:08.563Z] [WORKFLOW-4ecbb611-dcdb-4551-bb87-6f9a119c853e] ✅ Cancelled any existing active missions
+[2025-05-20T02:42:08.563Z] [WORKFLOW-4ecbb611-dcdb-4551-bb87-6f9a119c853e] Using generic shelf-to-central template with pickupShelf=115_load
+[2025-05-20T02:42:08.563Z] [WORKFLOW-4ecbb611-dcdb-4551-bb87-6f9a119c853e] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T02:42:08.563Z] [WORKFLOW-4ecbb611-dcdb-4551-bb87-6f9a119c853e] Processed point ID: {pickupShelf}_load_docking → 115_load_docking
+[2025-05-20T02:42:08.563Z] [WORKFLOW-4ecbb611-dcdb-4551-bb87-6f9a119c853e] Getting coordinates for point: 115_load_docking
+[2025-05-20T02:42:08.563Z] [WORKFLOW-4ecbb611-dcdb-4551-bb87-6f9a119c853e] Found coordinates for 115_load_docking: (-6.917, 6.721, 0)
+[2025-05-20T02:42:08.563Z] [WORKFLOW-4ecbb611-dcdb-4551-bb87-6f9a119c853e] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T02:42:08.563Z] [WORKFLOW-4ecbb611-dcdb-4551-bb87-6f9a119c853e] Processed point ID: {pickupShelf}_load → 115_load
+[2025-05-20T02:42:08.563Z] [WORKFLOW-4ecbb611-dcdb-4551-bb87-6f9a119c853e] Getting shelf alignment coordinates for: 115_load
+[2025-05-20T02:42:08.564Z] [WORKFLOW-4ecbb611-dcdb-4551-bb87-6f9a119c853e] Found shelf coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-20T02:42:08.564Z] [WORKFLOW-4ecbb611-dcdb-4551-bb87-6f9a119c853e] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T02:42:08.564Z] [WORKFLOW-4ecbb611-dcdb-4551-bb87-6f9a119c853e] Processed point ID: 001_load → 001_load
+[2025-05-20T02:42:08.590Z] [WORKFLOW-4ecbb611-dcdb-4551-bb87-6f9a119c853e] ✅ Created shelf-to-central mission with ID: mission_1747708928565_6wg4kfk and 5 steps
+[2025-05-20T02:48:00.536Z] [WORKFLOW-b0449a9b-08ef-498a-89a6-88694a88b3fb] Starting workflow shelf-to-central with params: {"serviceType":"robot","operationType":"pickup","floorId":"4","shelfId":"115_load"}
+[2025-05-20T02:48:00.544Z] [WORKFLOW-b0449a9b-08ef-498a-89a6-88694a88b3fb] ✅ Cancelled any existing active missions
+[2025-05-20T02:48:00.544Z] [WORKFLOW-b0449a9b-08ef-498a-89a6-88694a88b3fb] Using generic shelf-to-central template with pickupShelf=115_load
+[2025-05-20T02:48:00.544Z] [WORKFLOW-b0449a9b-08ef-498a-89a6-88694a88b3fb] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T02:48:00.545Z] [WORKFLOW-b0449a9b-08ef-498a-89a6-88694a88b3fb] Processed point ID: {pickupShelf}_load_docking → 115_load_docking
+[2025-05-20T02:48:00.545Z] [WORKFLOW-b0449a9b-08ef-498a-89a6-88694a88b3fb] Getting coordinates for point: 115_load_docking
+[2025-05-20T02:48:00.545Z] [WORKFLOW-b0449a9b-08ef-498a-89a6-88694a88b3fb] Found coordinates for 115_load_docking: (-6.917, 6.721, 0)
+[2025-05-20T02:48:00.545Z] [WORKFLOW-b0449a9b-08ef-498a-89a6-88694a88b3fb] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T02:48:00.545Z] [WORKFLOW-b0449a9b-08ef-498a-89a6-88694a88b3fb] Processed point ID: {pickupShelf}_load → 115_load
+[2025-05-20T02:48:00.546Z] [WORKFLOW-b0449a9b-08ef-498a-89a6-88694a88b3fb] Getting shelf alignment coordinates for: 115_load
+[2025-05-20T02:48:00.546Z] [WORKFLOW-b0449a9b-08ef-498a-89a6-88694a88b3fb] Found shelf coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-20T02:48:00.546Z] [WORKFLOW-b0449a9b-08ef-498a-89a6-88694a88b3fb] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T02:48:00.546Z] [WORKFLOW-b0449a9b-08ef-498a-89a6-88694a88b3fb] Processed point ID: 001_load → 001_load
+[2025-05-20T02:48:00.555Z] [WORKFLOW-b0449a9b-08ef-498a-89a6-88694a88b3fb] ✅ Created shelf-to-central mission with ID: mission_1747709280547_z9kk1p3 and 5 steps
+[2025-05-20T04:36:23.375Z] [WORKFLOW-4e74ec94-71b1-4a87-bc3a-106717bb4f8e] Starting workflow shelf-to-central with params: {"serviceType":"robot","operationType":"pickup","floorId":"4","shelfId":"115_load"}
+[2025-05-20T04:36:23.383Z] [WORKFLOW-4e74ec94-71b1-4a87-bc3a-106717bb4f8e] ✅ Cancelled any existing active missions
+[2025-05-20T04:36:23.383Z] [WORKFLOW-4e74ec94-71b1-4a87-bc3a-106717bb4f8e] Using generic shelf-to-central template with pickupShelf=115_load
+[2025-05-20T04:36:23.383Z] [WORKFLOW-4e74ec94-71b1-4a87-bc3a-106717bb4f8e] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T04:36:23.384Z] [WORKFLOW-4e74ec94-71b1-4a87-bc3a-106717bb4f8e] Processed point ID: {pickupShelf}_load_docking → 115_load_docking
+[2025-05-20T04:36:23.384Z] [WORKFLOW-4e74ec94-71b1-4a87-bc3a-106717bb4f8e] Getting coordinates for point: 115_load_docking
+[2025-05-20T04:36:23.385Z] [WORKFLOW-4e74ec94-71b1-4a87-bc3a-106717bb4f8e] Found coordinates for 115_load_docking: (-6.917, 6.721, 0)
+[2025-05-20T04:36:23.385Z] [WORKFLOW-4e74ec94-71b1-4a87-bc3a-106717bb4f8e] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T04:36:23.385Z] [WORKFLOW-4e74ec94-71b1-4a87-bc3a-106717bb4f8e] Processed point ID: {pickupShelf}_load → 115_load
+[2025-05-20T04:36:23.386Z] [WORKFLOW-4e74ec94-71b1-4a87-bc3a-106717bb4f8e] Getting shelf alignment coordinates for: 115_load
+[2025-05-20T04:36:23.386Z] [WORKFLOW-4e74ec94-71b1-4a87-bc3a-106717bb4f8e] Found shelf coordinates for 115_load: (-8.029, 6.704, 0)
+[2025-05-20T04:36:23.386Z] [WORKFLOW-4e74ec94-71b1-4a87-bc3a-106717bb4f8e] Removed duplicate '_load' suffix from shelf ID: 115_load → 115
+[2025-05-20T04:36:23.387Z] [WORKFLOW-4e74ec94-71b1-4a87-bc3a-106717bb4f8e] Processed point ID: 001_load → 001_load
+[2025-05-20T04:36:23.410Z] [WORKFLOW-4e74ec94-71b1-4a87-bc3a-106717bb4f8e] ✅ Created shelf-to-central mission with ID: mission_1747715783388_srdsvux and 5 steps
